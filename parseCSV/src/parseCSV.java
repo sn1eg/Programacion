@@ -1,11 +1,12 @@
+import javax.sound.midi.Soundbank;
 import javax.swing.*;
+import javax.swing.event.DocumentListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class parseCSV {
@@ -61,6 +62,167 @@ public class parseCSV {
                     }
                     txtProductos.setText(result);
                 }
+            }
+        });
+
+        txt_id1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent e) {
+                for(int f = 0; f < idProducto.length; f++){
+                    if(Integer.parseInt(txt_id1.getText()) == idProducto[f]){
+                        txt_nombre1.setText(nombre[f]);
+                        txt_precio1.setText(precio[f]);
+                    }
+                }
+            }
+        });
+
+        txt_id2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent e) {
+                for(int f = 0; f < idProducto.length; f++){
+                    if(Integer.parseInt(txt_id2.getText()) == idProducto[f]){
+                        txt_nombre2.setText(nombre[f]);
+                        txt_precio2.setText(precio[f]);
+                    }
+                }
+            }
+        });
+
+        txt_id3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent e) {
+                for(int f = 0; f < idProducto.length; f++){
+                    if(Integer.parseInt(txt_id3.getText()) == idProducto[f]){
+                        txt_nombre3.setText(nombre[f]);
+                        txt_precio3.setText(precio[f]);
+                    }
+                }
+            }
+        });
+
+        txt_cant1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent e) {
+                float aux1 = Float.parseFloat(txt_precio1.getText().charAt(0) +""+ txt_precio1.getText().charAt(1));
+                int aux2 = Integer.parseInt(txt_precio1.getText().charAt(3) +""+ txt_precio1.getText().charAt(4));
+                float aux3 = 0;
+                aux3 = (float) (aux2 * 0.01);
+                float cant = 0;
+                cant = Float.parseFloat(txt_cant1.getText());
+
+                float total = 0;
+                total = cant*(aux1+aux3);
+
+
+                float aux4 = Float.parseFloat(txt_precio2.getText().charAt(0) +""+ txt_precio2.getText().charAt(1));
+                int aux5 = Integer.parseInt(txt_precio2.getText().charAt(3) +""+ txt_precio2.getText().charAt(4));
+                float aux6 = 0;
+                aux6 = (float) (aux5 * 0.01);
+                float cant2 = 0;
+                cant = Float.parseFloat(txt_cant2.getText());
+
+                float total2 = 0;
+                total2 = cant*(aux4+aux6);
+
+
+                float aux7 = Float.parseFloat(txt_precio3.getText().charAt(0) +""+ txt_precio3.getText().charAt(1));
+                int aux8 = Integer.parseInt(txt_precio3.getText().charAt(3) +""+ txt_precio3.getText().charAt(4));
+                float aux9 = 0;
+                aux6 = (float) (aux8 * 0.01);
+                float cant3 = 0;
+                cant = Float.parseFloat(txt_cant3.getText());
+
+                float total3 = 0;
+                total3 = cant*(aux7+aux9);
+
+                txt_importe1.setText(total+"");
+                txt_importe2.setText(total2+"");
+                txt_importe3.setText(total3+"");
+
+                txt_importetotal.setText(total+total2+total3+"");
+
+
+            }
+        });
+
+        txt_cant2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent e) {
+                float aux1 = Float.parseFloat(txt_precio1.getText().charAt(0) +""+ txt_precio1.getText().charAt(1));
+                int aux2 = Integer.parseInt(txt_precio1.getText().charAt(3) +""+ txt_precio1.getText().charAt(4));
+                float aux3 = 0;
+                aux3 = (float) (aux2 * 0.01);
+                float cant = 0;
+                cant = Float.parseFloat(txt_cant1.getText());
+
+                float total = 0;
+                total = cant*(aux1+aux3);
+
+
+                float aux4 = Float.parseFloat(txt_precio2.getText().charAt(0) +""+ txt_precio2.getText().charAt(1));
+                int aux5 = Integer.parseInt(txt_precio2.getText().charAt(3) +""+ txt_precio2.getText().charAt(4));
+                float aux6 = 0;
+                aux6 = (float) (aux5 * 0.01);
+                float cant2 = 0;
+                cant = Float.parseFloat(txt_cant2.getText());
+
+                float total2 = 0;
+                total2 = cant*(aux4+aux6);
+
+
+                float aux7 = Float.parseFloat(txt_precio3.getText().charAt(0) +""+ txt_precio3.getText().charAt(1));
+                int aux8 = Integer.parseInt(txt_precio3.getText().charAt(3) +""+ txt_precio3.getText().charAt(4));
+                float aux9 = 0;
+                aux6 = (float) (aux8 * 0.01);
+                float cant3 = 0;
+                cant = Float.parseFloat(txt_cant3.getText());
+
+                float total3 = 0;
+                total3 = cant*(aux7+aux9);
+
+                txt_importe1.setText(total+"");
+                txt_importe2.setText(total2+"");
+                txt_importe3.setText(total3+"");
+
+                txt_importetotal.setText(total+total2+total3+"");
+            }
+        });
+
+        txt_cant3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent e) {
+                float aux1 = Float.parseFloat(txt_precio1.getText().charAt(0) +""+ txt_precio1.getText().charAt(1));
+                int aux2 = Integer.parseInt(txt_precio1.getText().charAt(3) +""+ txt_precio1.getText().charAt(4));
+                float aux3 = 0;
+                aux3 = (float) (aux2 * 0.01);
+                float cant = 0;
+                cant = Float.parseFloat(txt_cant1.getText());
+
+                float total = 0;
+                total = cant*(aux1+aux3);
+
+
+                float aux4 = Float.parseFloat(txt_precio2.getText().charAt(0) +""+ txt_precio2.getText().charAt(1));
+                int aux5 = Integer.parseInt(txt_precio2.getText().charAt(3) +""+ txt_precio2.getText().charAt(4));
+                float aux6 = 0;
+                aux6 = (float) (aux5 * 0.01);
+                float cant2 = 0;
+                cant = Float.parseFloat(txt_cant2.getText());
+
+                float total2 = 0;
+                total2 = cant*(aux4+aux6);
+
+
+                float aux7 = Float.parseFloat(txt_precio3.getText().charAt(0) +""+ txt_precio3.getText().charAt(1));
+                int aux8 = Integer.parseInt(txt_precio3.getText().charAt(3) +""+ txt_precio3.getText().charAt(4));
+                float aux9 = 0;
+                aux6 = (float) (aux8 * 0.01);
+                float cant3 = 0;
+                cant = Float.parseFloat(txt_cant3.getText());
+
+                float total3 = 0;
+                total3 = cant*(aux7+aux9);
+
+                txt_importe1.setText(total+"");
+                txt_importe2.setText(total2+"");
+                txt_importe3.setText(total3+"");
+
+                txt_importetotal.setText(total+total2+total3+"");
             }
         });
     }
