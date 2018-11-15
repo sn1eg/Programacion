@@ -42,7 +42,11 @@ public class calCromos {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int randomNum1 = ThreadLocalRandom.current().nextInt(1, cromos);
+                int randomNum2 = ThreadLocalRandom.current().nextInt(1, cromos);
+                int randomNum3 = ThreadLocalRandom.current().nextInt(1, cromos);
                 String nombre = "txtCromo" + randomNum1;
+                String nombre2 = "txtCromo" + randomNum2;
+                String nombre3 = "txtCromo" + randomNum3;
                 for (Component c : panelRight.getComponents()) {
                     if (c.getName()!=null && c.getName().equals(nombre)) {
                         JTextField txtCromo = (JTextField) c;
@@ -51,8 +55,24 @@ public class calCromos {
                         System.out.println(c.getName()+" "+String.valueOf(n1));
                         panelRight.validate();
                     }
+                    if (c.getName()!=null && c.getName().equals(nombre2)) {
+                        JTextField txtCromo = (JTextField) c;
+                        int n2 = Integer.parseInt(txtCromo.getText()) + 1;
+                        txtCromo.setText(String.valueOf(n2));
+                        System.out.println(c.getName()+" "+String.valueOf(n2));
+                        panelRight.validate();
+                    }
+                    if (c.getName()!=null && c.getName().equals(nombre3)) {
+                        JTextField txtCromo = (JTextField) c;
+                        int n3 = Integer.parseInt(txtCromo.getText()) + 1;
+                        txtCromo.setText(String.valueOf(n3));
+                        System.out.println(c.getName()+" "+String.valueOf(n3));
+                        panelRight.validate();
+                    }
                 }
-                txtBolsa1.setText(String.valueOf(randomNum1));
+                txtBolsa1.setText(String.valueOf(randomNum1-1));
+                txtBolsa2.setText(String.valueOf(randomNum2-1));
+                txtBolsa3.setText(String.valueOf(randomNum3-1));
             }
         });
     }

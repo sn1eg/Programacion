@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="308a44a9-bb4b-4cea-b8d5-0bb3741bac28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Tema03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/src/calCromos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/src/calCromos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parseCSV.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/parseCSV.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parseCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parseCSV.java" afterDir="false" />
-    </list>
+    <list default="true" id="308a44a9-bb4b-4cea-b8d5-0bb3741bac28" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +52,7 @@
     <session id="-216874257">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.opened" value="3" />
@@ -66,12 +60,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1514" />
+          <entry key="java" value="1521" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1514" />
+          <entry key="JAVA" value="1521" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -92,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/parseCSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="224" column="65" selection-start-line="224" selection-start-column="65" selection-end-line="224" selection-end-column="65" />
+            <state relative-caret-position="75">
+              <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,7 +224,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2805873" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2805873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parseCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="224" column="65" selection-start-line="224" selection-start-column="65" selection-end-line="224" selection-end-column="65" />
+        <state relative-caret-position="75">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
