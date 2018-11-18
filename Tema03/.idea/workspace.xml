@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/out/production/calCromos/calCromos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/out/production/calCromos/calCromos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/src/calCromos.form" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/src/calCromos.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/src/calCromos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/src/calCromos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parseCSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseCSV/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="Programacion" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +13,7 @@
     <session id="1453309083">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="3" />
@@ -45,12 +38,13 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="java" value="19904" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="19904" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -61,7 +55,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="690">
               <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
@@ -149,7 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542272857256" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542571837627" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
@@ -265,11 +259,18 @@
       <option name="presentableId" value="Default" />
       <updated>1539761222860</updated>
     </task>
+    <task id="LOCAL-00001" summary="Programacion">
+      <created>1542272834337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542272834337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.36060607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -280,7 +281,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30995107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30995107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,6 +302,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Programacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programacion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java">
@@ -460,7 +465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="690">
           <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
