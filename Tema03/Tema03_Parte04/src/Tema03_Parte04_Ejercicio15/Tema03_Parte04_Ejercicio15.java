@@ -112,8 +112,43 @@ public class Tema03_Parte04_Ejercicio15 {
             vidas1--;
         }
 
+        if(tablero1[jugador1[0]][jugador1[1]] == 'P'){
+            vidas1++;
+        }
+
         tablero1[jugador1[0]][jugador1[1]] = 'O';
 
+    }
+
+    static void colocarpociones(){
+        Random random = new Random();
+
+        int posx[] = new int[3];
+        int posy[] = new int[3];
+        int posicionx = 0;
+        int posiciony = 0;
+
+        for(int q = 0; q < 6; q++){
+
+            for(int p = 0; p < 3; p++) {
+                do {
+                    while (posicionx == posx[p]) {
+                        posicionx = random.nextInt(5);
+                    }
+
+                    while (posiciony == posy[p]) {
+                        posiciony = random.nextInt(5);
+                    }
+                }while(tablero1[posicionx][posiciony] == 'Z' || tablero1[posicionx][posiciony] == 'O' || tablero1[posicionx][posiciony] == 'X');
+            }
+
+            if(q < 3){
+                tablero1[posiciony][posicionx] = 'P';
+            }
+            else if(q >= 3){
+                tablero2[posiciony][posicionx] = 'P';
+            }
+        }
     }
 
     public static void main(String[]args){
@@ -122,6 +157,7 @@ public class Tema03_Parte04_Ejercicio15 {
         colocarjugadores('X');
         for(int x = 0; x < 5; x++) {
             colocarzombies();
+            colocarpociones();
         }
         imprimirtablero();
 //        perdervida();

@@ -14,6 +14,11 @@ public class calCromos {
     private JTextField txtBolsa1;
     private JTextField txtBolsa2;
     private JTextField txtBolsa3;
+    private JMenuItem itemRepetidos;
+    private JMenuItem itemPendientes;
+    private JMenuItem itemCambiar;
+    private JPanel panelCambiar;
+    private JButton butCambiar;
     static int cromos = 20;
 
     public calCromos() {
@@ -28,7 +33,7 @@ public class calCromos {
             panelRight.add(lblCromo, lblConstraints);
 
             JTextField txtCromo = new JTextField();
-            String nombre = "txtCromo" + (i + 1);
+            String nombre = "txtCromo" + i;
             txtConstraints.gridx = 0;
             txtConstraints.gridy = i;
             txtCromo.setPreferredSize(new Dimension(60, 24));
@@ -44,35 +49,60 @@ public class calCromos {
                 int randomNum1 = ThreadLocalRandom.current().nextInt(1, cromos);
                 int randomNum2 = ThreadLocalRandom.current().nextInt(1, cromos);
                 int randomNum3 = ThreadLocalRandom.current().nextInt(1, cromos);
-                String nombre = "txtCromo" + randomNum1;
+                String nombre1 = "txtCromo" + randomNum1;
                 String nombre2 = "txtCromo" + randomNum2;
                 String nombre3 = "txtCromo" + randomNum3;
                 for (Component c : panelRight.getComponents()) {
-                    if (c.getName()!=null && c.getName().equals(nombre)) {
+                    compraCromo(c,nombre1,randomNum1,txtBolsa1);
+                    compraCromo(c,nombre2,randomNum2,txtBolsa2);
+                    compraCromo(c,nombre3,randomNum3,txtBolsa3);
+                    /*if (c.getName() != null && c.getName().equals(nombre1)) {
                         JTextField txtCromo = (JTextField) c;
                         int n1 = Integer.parseInt(txtCromo.getText()) + 1;
                         txtCromo.setText(String.valueOf(n1));
-                        System.out.println(c.getName()+" "+String.valueOf(n1));
+                        System.out.println(c.getName() + " " + String.valueOf(n1));
                         panelRight.validate();
                     }
-                    if (c.getName()!=null && c.getName().equals(nombre2)) {
+                    if (c.getName() != null && c.getName().equals(nombre2)) {
                         JTextField txtCromo = (JTextField) c;
                         int n2 = Integer.parseInt(txtCromo.getText()) + 1;
-                        txtCromo.setText(String.valueOf(n2));
-                        System.out.println(c.getName()+" "+String.valueOf(n2));
+                        txtCromo.setText(Integer.toString(n2));
                         panelRight.validate();
                     }
-                    if (c.getName()!=null && c.getName().equals(nombre3)) {
+                    if (c.getName() != null && c.getName().equals(nombre3)) {
                         JTextField txtCromo = (JTextField) c;
                         int n3 = Integer.parseInt(txtCromo.getText()) + 1;
-                        txtCromo.setText(String.valueOf(n3));
-                        System.out.println(c.getName()+" "+String.valueOf(n3));
+                        txtCromo.setText(Integer.toString(n3));
                         panelRight.validate();
+                    }*/
+                }
+                //txtBolsa1.setText(String.valueOf(randomNum1));
+                //txtBolsa2.setText(String.valueOf(randomNum2));
+                //txtBolsa3.setText(String.valueOf(randomNum3));
+            }
+            // ---> compraCromo(c,nombre2,random2,txtBolsa2);
+            private void compraCromo(Component c,String nombre, int randomNum, JTextField txtBolsa) {
+                if (c.getName() != null && c.getName().equals(nombre)) {
+                    JTextField txtCromo = (JTextField) c;
+                    int n = Integer.parseInt(txtCromo.getText()) + 1;
+                    txtCromo.setText(String.valueOf(n));
+                    txtBolsa.setText(String.valueOf(randomNum));
+                    txtBolsa.setEditable(false);
+                    panelRight.validate();
+                }
+            }
+        });
+        itemRepetidos.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                for (Component c : panelRight.getComponents()) {
+                    if (c.getName() != null) {
+                        JTextField txtCromo = (JTextField) c;
+                        if (Integer.parseInt(txtCromo.getText()) > 1) {
+                            txtCromo.setBackground(Color.red);
+                        }
                     }
                 }
-                txtBolsa1.setText(String.valueOf(randomNum1-1));
-                txtBolsa2.setText(String.valueOf(randomNum2-1));
-                txtBolsa3.setText(String.valueOf(randomNum3-1));
             }
         });
     }

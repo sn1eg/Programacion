@@ -12,6 +12,7 @@ public class addImage {
     private JLabel lbl_cara;
     private JLabel lbl_cruz;
     private JLabel lbl_moneda;
+    private JPanel panellabel;
 
     Random random = new Random();
     int countcara = 0;
