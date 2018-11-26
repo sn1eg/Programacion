@@ -10,6 +10,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.FileInputStream;
 import javax.swing.Timer;
 
 public class parseXML {
@@ -22,6 +23,8 @@ public class parseXML {
     private JButton ButJugar;
     private JLabel lblPalabra;
     private JLabel lblResultado;
+    private JTextField textField1;
+    private JLabel lblNombre;
 
     /* https://examples.javacodegeeks.com/core-java/xml/dom/add-node-to-dom-document/*/
 
@@ -42,6 +45,24 @@ prettyPrint(doc);
 
 */
 
+    public void xmlcreate() throws Exception {
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        dbf.setValidating(false);
+        DocumentBuilder db = dbf.newDocumentBuilder();
+
+        Document doc = db.parse(new FileInputStream(new File("david.xml")));
+
+        Element element = doc.getDocumentElement();
+        Node node = doc.createElement("palabra");
+        ((Element) node).setAttribute("fecha", "oy");
+        ((Element) node).setAttribute("generada", "oy");
+        ((Element) node).setAttribute("contestada", "oy");
+        ((Element) node).setAttribute("acertada", "oy");
+        element.appendChild(node);
+//        prettyPrint(doc);
+    }
+
+
 
     public parseXML() {
         String[] palabrasXML = new String[0];
@@ -52,7 +73,7 @@ prettyPrint(doc);
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
             doc.getDocumentElement().normalize();
-            System.out.println("Elemento raíz :" + doc.getDocumentElement().getNodeName());
+            System.out.println("Elemento rastaticíz :" + doc.getDocumentElement().getNodeName());
             NodeList nodos = doc.getElementsByTagName("ROW");
             System.out.println(nodos.getLength());
             palabrasXML = new String[nodos.getLength()];
@@ -96,6 +117,7 @@ prettyPrint(doc);
                 } else {
                     lblResultado.setVisible(true);
                     lblResultado.setText("No has acertado la palabra.");
+                    ButAgain.setVisible(true);
                 }
             }
         });

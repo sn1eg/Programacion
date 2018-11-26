@@ -21,50 +21,85 @@ public class calcLog {
     int num1 = 0;
     int num2 = 0;
     int resultado = 0;
+    String resultado2 = "";
+    int total = 0;
 
-
-    //Recogida de los numeros y casteo a int
-    ActionListener recoger = new ActionListener() {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            num1 = Integer.parseInt(txt_num1.getText());
-            num2 = Integer.parseInt(txt_num2.getText());
-        }
-    };
 
     //Se imprimen los valores, respetando el contenido anterior del text area
-    ActionListener imprimir = new ActionListener() {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            txtarea_log.append(resultado + "\n");
-            txt_result.setText(resultado+"");
+    public void imprimir() {
+            txtarea_log.append(resultado2 + "\n");
+            txt_result.setText(total+"");
         }
-    };
 
-    ActionListener suma = new ActionListener() {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            resultado = num1+num2;
-        }
-    };
-
+    //Recogida de los numeros y casteo a int
     public void recoger(){
         num1 = Integer.parseInt(txt_num1.getText());
         num2 = Integer.parseInt(txt_num2.getText());
     }
 
 
+
+    public void suma(){
+        resultado = num1+num2;
+        total = total + resultado;
+        resultado2 = num1 +"+"+num2+"= "+resultado;
+
+    }
+
+    public void resta(){
+        resultado = num1-num2;
+        total = total + resultado;
+        resultado2 = num1 +"-"+num2+"= "+resultado;
+
+    }
+
+    public void multiplicacion(){
+        resultado = num1*num2;
+        total = total + resultado;
+        resultado2 = num1 +"*"+num2+"= "+resultado;
+
+    }
+
+    public void division(){
+        resultado = num1/num2;
+        total = total + resultado;
+        resultado2 = num1 +"/"+num2+"= "+resultado;
+
+    }
+
     public calcLog() {
-//        btn_sum.addActionListener(recoger);
         btn_sum.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-
+                recoger();
+                suma();
+                imprimir();
             }
         });
-
-        btn_sum.addActionListener(suma);
-        btn_sum.addActionListener(imprimir);
+        btn_res.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                recoger();
+                resta();
+                imprimir();
+            }
+        });
+        btn_mul.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                recoger();
+                multiplicacion();
+                imprimir();
+            }
+        });
+        btn_div.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                recoger();
+                division();
+                imprimir();
+            }
+        });
     }
 
     public static void main(String[] args) {
