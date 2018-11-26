@@ -52,14 +52,14 @@ public class Ejercicio02_RobertoMuñozdeLeon_S11AW {
 
 
         rellenar(matriz, columna);
-
-        matriz[1][0] = 0;
-        matriz[1][1] = 1;
-        columna[0]= 0;
-        columna[1] = 1;
+//
+//        matriz[1][0] = 0;
+//        matriz[1][1] = 1;
+//        columna[0]= 0;
+//        columna[1] = 1;
 
         int aux = comproColumna(matriz, columna);
-
+        System.out.println();
         if(aux == -1){
             System.out.println("No hay ninguna coincidencia");
         }
