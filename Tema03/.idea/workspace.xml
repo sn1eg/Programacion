@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../calcLog/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../calcLog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../calcLog/src/calcLog.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../calcLog/src/calcLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addImage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../addImage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addImage/out/production/addImage/addImage/addImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addImage/out/production/addImage/addImage/addImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addImage/src/addImage/addImage.form" beforeDir="false" afterPath="$PROJECT_DIR$/../addImage/src/addImage/addImage.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../addImage/src/addImage/addImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addImage/src/addImage/addImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/out/production/calCromos/calCromos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/src/calCromos.form" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/src/calCromos.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../calCromos/src/calCromos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calCromos/src/calCromos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,57 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4533" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1453309083">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="36" />
-          <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.1" value="10" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="4" />
-          <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="37" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="59" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="59" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="5" />
-          <entry key="java" value="23552" />
-          <entry key="txt" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="23552" />
-          <entry key="PLAIN_TEXT" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
+    <option name="totalTimeSeconds" value="4838" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+            <state relative-caret-position="472">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,6 +72,7 @@
         <option value="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.java" />
         <option value="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java" />
         <option value="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" />
+        <option value="$PROJECT_DIR$/Tema03_Parte04/src/deleteme.java" />
       </list>
     </option>
   </component>
@@ -142,10 +87,35 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
+              <item name="Tema03_Parte04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
+              <item name="Tema03_Parte04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542799859360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542799917026" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -251,8 +221,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tema03_Parte04_Ejercicio03" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio01" />
+      <item itemvalue="Application.Tema03_Parte04_Ejercicio03" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio08" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio09" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio12" />
@@ -293,13 +263,27 @@
       <option name="project" value="LOCAL" />
       <updated>1542571843293</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Programacion">
+      <created>1542799753166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542799753166</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Programacion">
+      <created>1542799875310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542799875310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="181" width="1366" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38484848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3969697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +293,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4502447" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,14 +310,36 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Programacion" />
     <option name="LAST_COMMIT_MESSAGE" value="Programacion" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java">
@@ -519,10 +525,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/deleteme.java" />
     <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        <state relative-caret-position="472">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,9 +539,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Tema03</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
