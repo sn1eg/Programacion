@@ -59,35 +59,35 @@ prettyPrint(doc);
         ((Element) node).setAttribute("contestada", "oy");
         ((Element) node).setAttribute("acertada", "oy");
         element.appendChild(node);
-//        prettyPrint(doc);
+//        prettyview(doc);
     }
 
 
 
     public parseXML() {
-        String[] palabrasXML = new String[0];
-        try {
-            final String dir = System.getProperty("user.dir");
-            File inputFile = new File(dir + File.separator + "src" + File.separator + "PALABRAS.xml");
-            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(inputFile);
-            doc.getDocumentElement().normalize();
-            System.out.println("Elemento rastaticíz :" + doc.getDocumentElement().getNodeName());
-            NodeList nodos = doc.getElementsByTagName("ROW");
-            System.out.println(nodos.getLength());
-            palabrasXML = new String[nodos.getLength()];
-            for (int i = 0; i < nodos.getLength(); i++) {
-                Node nodo = nodos.item(i);
-                if (nodo.getNodeType() == Node.ELEMENT_NODE) {
-                    Element palabra = (Element) nodo;
-                    palabrasXML[i] = palabra.getAttribute("PALABRA");
-                }
-            }
+		String[] palabrasXML = new String[0];
+		try {
+		    final String dir = System.getProperty("user.dir");
+		    File inputFile = new File(dir + File.separator + "src" + File.separator + "PALABRAS.xml");
+		    DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		    DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		    Document doc = dBuilder.parse(inputFile);
+		    doc.getDocumentElement().normalize();
+		    System.out.println("Elemento rastaticíz :" + doc.getDocumentElement().getNodeName());
+		    NodeList nodos = doc.getElementsByTagName("ROW");
+		    System.out.println(nodos.getLength());
+		    palabrasXML = new String[nodos.getLength()];
+		    for (int i = 0; i < nodos.getLength(); i++) {
+		        Node nodo = nodos.item(i);
+		        if (nodo.getNodeType() == Node.ELEMENT_NODE) {
+		            Element palabra = (Element) nodo;
+		            palabrasXML[i] = palabra.getAttribute("PALABRA");
+		        }
+		    }
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+		} catch (Exception e) {
+		    e.printStackTrace();
+		}
         String[] finalPalabrasXML = palabrasXML;
         ActionListener Ocultar = new ActionListener() {
             @Override
