@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedHashSet;
 
 public class apMundo {
     private JPanel panel_Main;
@@ -61,7 +62,14 @@ public class apMundo {
                     System.out.println(paises.toString());
                     Collections.sort(paises);
 
-                    for(String aux : paises){
+
+                    //Eliminación de los duplicados en la ArrayList paises
+                    //https://javarevisited.blogspot.com/2012/12/how-to-remove-duplicates-elements-from-ArrayList-Java.html
+                    LinkedHashSet<String> listToSet = new LinkedHashSet<String>(paises);
+                    ArrayList<String> paises_limpio = new ArrayList<String>(listToSet);
+
+
+                    for(String aux : paises_limpio){
                         combo_Pais.addItem(aux);
                     }
 
@@ -108,8 +116,9 @@ public class apMundo {
                     }
                     System.out.println(resultados.toString());
                     Collections.sort(resultados);
+
                     resultados.forEach((pais) -> area_Resultados.setText(area_Resultados.getText() + pais + "\n"));
-//                    resultados.forEach((pais) -> area_Resultados.set);
+
                 } catch (XPathExpressionException e) {
                     e.printStackTrace();
                 } catch (ParserConfigurationException e) {
@@ -136,6 +145,8 @@ public class apMundo {
         //frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
+
 
     }
 }
