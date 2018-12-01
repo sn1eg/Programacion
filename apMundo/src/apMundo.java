@@ -92,7 +92,6 @@ public class apMundo {
                 area_Resultados.setText("");
                 String seleccion = (String) combo_Pais.getSelectedItem();
 
-
                 XPath xPath = XPathFactory.newInstance().newXPath();
                 try {
                     DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -134,10 +133,7 @@ public class apMundo {
     }
 
 
-
-
     public static void main(String[] args){
-
         JFrame frame = new JFrame("XML palabras");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(new apMundo().panel_Main);
