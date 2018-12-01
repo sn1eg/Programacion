@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apMundo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apMundo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apMundo/src/apMundo.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apMundo/src/apMundo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../csvToxml/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/Tema03_Parte01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/Tema03_Parte01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Tema03_Parte01_Ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Tema03_Parte01_Ejercicio01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio02/Tema03_Parte01_Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio02/Tema03_Parte01_Ejercicio02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio03/Tema03_Parte01_Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio03/Tema03_Parte01_Ejercicio03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio04/Tema03_Parte01_Ejercicio04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio04/Tema03_Parte01_Ejercicio04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio05/Tema03_Parte01_Ejercicio05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio05/Tema03_Parte01_Ejercicio05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio06/Tema03_Parte01_Ejercicio06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio06/Tema03_Parte01_Ejercicio06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio07/Tema03_Parte01_Ejercicio07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio07/Tema03_Parte01_Ejercicio07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio08/Tema03_Parte_01_Ejercicio08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio08/Tema03_Parte_01_Ejercicio08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio11/Tema03_Parte01_Ejercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio11/Tema03_Parte01_Ejercicio11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio14/Tema03_Parte01_Ejercicio14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio14/Tema03_Parte01_Ejercicio14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio15/Tema03_Parte01_Ejercicio15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio15/Tema03_Parte01_Ejercicio15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte02/Tema03_Parte02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte02/Tema03_Parte02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte03/Tema03_Parte03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte03/Tema03_Parte03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio01/Tema03_Parte03_Ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio01/Tema03_Parte03_Ejercicio01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio02/Tema03_Parte03_Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio02/Tema03_Parte03_Ejercicio02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio03/Tema03_Parte03_Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio03/Tema03_Parte03_Ejercicio03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio04/Tema03_Parte03_Ejercicio04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio04/Tema03_Parte03_Ejercicio04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio05/Tema03_Parte03_Ejercicio05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio05/Tema03_Parte03_Ejercicio05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/Tema03_Parte04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/Tema03_Parte04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio01/Tema03_Parte04_Ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio01/Tema03_Parte04_Ejercicio01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio02/Tema03_Parte04_Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio02/Tema03_Parte04_Ejercicio02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio08/Tema03_Parte04_Ejercicio08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio08/Tema03_Parte04_Ejercicio08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio10/Tema03_Parte04_Ejercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio10/Tema03_Parte04_Ejercicio10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio11/Tema03_Parte04_Ejercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio11/Tema03_Parte04_Ejercicio11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parseXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parseXML/src/parseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/src/parseXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,15 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4871" />
+    <option name="totalTimeSeconds" value="7966" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="382">
+              <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -111,6 +71,7 @@
         <option value="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java" />
         <option value="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" />
         <option value="$PROJECT_DIR$/Tema03_Parte04/src/deleteme.java" />
+        <option value="$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" />
       </list>
     </option>
   </component>
@@ -125,63 +86,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte04_Ejercicio01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543479246163" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543482940294" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -189,6 +97,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/Tema03_Parte03/src" />
       <recent name="$PROJECT_DIR$/Tema03_Parte02/src" />
       <recent name="$PROJECT_DIR$/Tema03_Parte02" />
@@ -287,8 +196,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tema03_Parte04_Ejercicio03" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio01" />
+      <item itemvalue="Application.Tema03_Parte04_Ejercicio03" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio08" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio09" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio12" />
@@ -343,13 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542799875310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Programacion">
+      <created>1543479273778</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543479273778</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="181" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40378788" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.40378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,7 +281,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284553" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32626426" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32952693" />
@@ -604,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="382">
+          <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
         </state>
       </provider>
     </entry>

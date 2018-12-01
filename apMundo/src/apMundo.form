@@ -10,7 +10,7 @@
     <children>
       <component id="7402d" class="javax.swing.JLabel" binding="lbl_Pais">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Pais"/>
@@ -33,6 +33,27 @@
         </constraints>
         <properties>
           <text value="Buscar"/>
+        </properties>
+      </component>
+      <scrollpane id="5054f">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="af0e8" class="javax.swing.JTextArea" binding="area_Resultados">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="409ff" class="javax.swing.JButton" binding="iniciarButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Iniciar"/>
         </properties>
       </component>
     </children>
