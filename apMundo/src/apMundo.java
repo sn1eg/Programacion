@@ -110,7 +110,7 @@ public class apMundo {
                         Node nodo = nodeList.item(n);
                         short nodeType = nodo.getNodeType();
                         if (nodeType == Node.ELEMENT_NODE) {
-                            resultados.add(nodo.getAttributes().getNamedItem("nombreCorto").getNodeValue());
+                            resultados.add(nodo.getAttributes().getNamedItem("nombreLargo").getNodeValue());
                         }
                     }
                     System.out.println(resultados.toString());
