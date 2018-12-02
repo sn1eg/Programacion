@@ -1,8 +1,6 @@
-package Tema03_Parte06_Ejercicio1_14;
+package Tema03_Parte06.Tema03_Parte06_Ejercicios;
 
-import com.sun.source.doctree.SinceTree;
-
-public class Tema03_Parte06_Ejercicio1_14 {
+public class Tema03_Parte06_Ejercicios {
 
     public static boolean esCapicua(int num){
 
@@ -53,9 +51,9 @@ public class Tema03_Parte06_Ejercicio1_14 {
         return 0;
     }
 
-    public static int potencia(int num){
-
-        return 0;
+    public static int potencia(int n, int num){
+        num = num^n;
+        return num;
     }
 
     public static int digitos(int num){
@@ -75,20 +73,20 @@ public class Tema03_Parte06_Ejercicio1_14 {
     }
 
     public static int digitoN(int n, int num){
-        String aux = "num";
+        String aux = ""+num;
 
         num = aux.charAt(n);
         return num;
     }
 
     public static int posicionDeDigito(String caracter, int num){
-        String aux = "num";
+        String aux = ""+num;
         num = aux.indexOf(caracter);
         return num;
     }
 
     public static int quitaPorDetras(int n, int num){
-        String aux = "num";
+        String aux = ""+num;
         int longitud = aux.length();
         String aux2 = "";
 
@@ -99,5 +97,61 @@ public class Tema03_Parte06_Ejercicio1_14 {
         }
 
         return 0;
+    }
+
+    public static int quitaPorDelante(int n, int num){
+
+        return 0;
+    }
+
+    public static int pegaPorDetras(int n, int num){
+        String aux = num+n+"";
+        num = Integer.parseInt(aux);
+        return num;
+    }
+
+    public static int pegaPorDelante(int n, int num){
+        String aux = n+num+"";
+        num = Integer.parseInt(aux);
+        return num;
+    }
+
+    public static int trozoDeNumero(int x, int z, int num){
+        String aux = ""+num;
+        num = Integer.parseInt(aux.substring(x,z));
+        return num;
+    }
+
+    public static int juntaNumeros(int num1, int num2){
+        String aux1 = num1+"";
+        String aux2 = num2+"";
+        num1 = Integer.parseInt(aux1.concat(aux2));
+        return num1;
+    }
+
+
+    public static void main(String[]args){
+
+        //15
+        for(int f = 1; f <= 1000; f++){
+            boolean flag = esPrimo(f);
+            if(flag){
+                System.out.println(f+" es primo");
+            }
+        }
+
+        //16
+        for(int f = 1; f <= 1000; f++){
+            boolean flag = esCapicua(f);
+            if(flag){
+                System.out.println(f+" es capicua");
+            }
+        }
+
+        //17
+
+        //18
+
+        //19
     }
 }
