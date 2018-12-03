@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio01/Tema03_Parte04_Ejercicio01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio02/Tema03_Parte04_Ejercicio02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio08/Tema03_Parte04_Ejercicio08.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio10/Tema03_Parte04_Ejercicio10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio11/Tema03_Parte04_Ejercicio11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema03_Parte04/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,15 +14,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="10490" />
+    <option name="totalTimeSeconds" value="16145" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -86,11 +84,13 @@
         <option value="$PROJECT_DIR$/src/Tema03_Parte06/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" />
         <option value="$PROJECT_DIR$/src/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" />
         <option value="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios.java" />
+        <option value="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios34.java" />
         <option value="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java" />
+        <option value="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios3.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="y" value="27" />
     <option name="width" value="683" />
@@ -102,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,11 +131,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543768079775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543842476452" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -163,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Tema03_Parte06_Ejercicios">
+  <component name="RunManager" selected="Application.Tema03_Parte06_Ejercicios3">
     <configuration name="Tema03_Parte04_Ejercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema03_Parte04_Ejercicio01.Tema03_Parte04_Ejercicio01" />
       <module name="Tema03_Parte04" />
@@ -183,19 +183,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tema03_Parte04_Ejercicio03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tema03_Parte04_Ejercicio09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema03_Parte04_Ejercicio09.Tema03_Parte04_Ejercicio09" />
-      <module name="Tema03_Parte04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema03_Parte04_Ejercicio09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,21 +229,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tema03_Parte06_Ejercicios3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema03_Parte06.Tema03_Parte06_Ejercicios.Tema03_Parte06_Ejercicios3" />
+      <module name="Tema03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema03_Parte06.Tema03_Parte06_Ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Tema03_Parte04_Ejercicio01" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio03" />
-      <item itemvalue="Application.Tema03_Parte04_Ejercicio09" />
+      <item itemvalue="Application.Tema03_Parte04_Ejercicio01" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio12" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio15" />
       <item itemvalue="Application.Tema03_Parte06_Ejercicios" />
+      <item itemvalue="Application.Tema03_Parte06_Ejercicios3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tema03_Parte06_Ejercicios3" />
         <item itemvalue="Application.Tema03_Parte06_Ejercicios" />
         <item itemvalue="Application.Tema03_Parte04_Ejercicio15" />
         <item itemvalue="Application.Tema03_Parte04_Ejercicio01" />
         <item itemvalue="Application.Tema03_Parte04_Ejercicio12" />
-        <item itemvalue="Application.Tema03_Parte04_Ejercicio09" />
       </list>
     </recent_temporary>
   </component>
@@ -306,13 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543479273778</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Programacion">
+      <created>1543768205171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543768205171</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="27" width="683" height="741" extended-state="4" />
+    <frame x="0" y="181" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40345368" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,7 +337,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284553" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32626426" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3257329" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -577,8 +585,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
         </state>
       </provider>
     </entry>

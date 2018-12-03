@@ -66,4 +66,11 @@ public class Tema03_Parte06_Ejercicios2 {
 
         return -1;
     }
+
+    public static void main(String[]args){
+
+        int miarray[] = new int[15];
+
+        estaEnArrayInt(7,miarray);
+    }
 }
