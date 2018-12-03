@@ -1,6 +1,7 @@
 package Tema03_Parte06.Tema03_Parte06_Ejercicios;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Tema03_Parte06_Ejercicios3 {
 
@@ -44,78 +45,55 @@ public class Tema03_Parte06_Ejercicios3 {
     }
 
     public static ArrayList<Integer> diagonal(int f, int c, String direccion, int[][] array){
-        int dir = 0;
+        ArrayList<Integer> aux = new ArrayList<>();
 
         int devolver[] = new int[array.length-f+1];
 
         if(direccion.equals("nose")){
-            dir = 0;
+            c--;
+            while(f < array.length){
+                if(c > 0){
+                    c--;
+                }
+                else if (c==0){
+                    break;
+                }
+                aux.add(array[f][c]);
+                f++;
+            }
         }
         else if(direccion.equals("neso")){
-            dir = 0;
+            while(f < array.length){
+                aux.add(array[f][c]);
+                if(c > array[f].length){
+                    c++;
+                }
+                f++;
+            }
         }
 
-        ArrayList<Integer> aux = new ArrayList<>();
 
         return aux;
     }
 
     public static void main(String[]args){
+        Random random = new Random();
 
         int miarray[][] = new int[6][6];
 
         for(int f = 0; f < miarray.length;f++){
             for(int c = 0; c < miarray[f].length;c++){
-                miarray[f][c] = 2;
-                System.out.print(miarray[f][c]);
+                miarray[f][c] = random.nextInt(10);
+                System.out.print(miarray[f][c]+" ");
             }
             System.out.println();
         }
-
-
-        ArrayList<Integer> aux = new ArrayList<>();
-
-        int g = 3;
-        int v = 4;
-        miarray[g-1][v-1] = 9;
 
         System.out.println();
+        System.out.println(diagonal(2,3,"neso",miarray));
 
-        v--;
-        for(int f = 0; g < miarray.length;g++){
-            if(v > 0){
-                v--;
-            }
-            else if (v==0){
-                break;
-            }
-            miarray[g][v] = 9;
-            aux.add(miarray[g][v]);
-//            v--;
-        }
+        //casi terminado
 
-//        for(int f = 0; g < miarray.length;g++){
-//            miarray[g][v] = 9;
-//            v++;
-//        }
-
-
-
-        for(int f = 0; f < miarray.length;f++){
-            for(int c = 0; c < miarray[f].length;c++){
-                System.out.print(miarray[f][c]);
-            }
-            System.out.println();
-        }
-
-
-        diagonal(3,2,"neso",miarray);
-
-        for (int x : aux) {
-            System.out.print(x+", ");
-        }
-
-//        System.out.println(miarray.length-g+1);
     }
 
 }
