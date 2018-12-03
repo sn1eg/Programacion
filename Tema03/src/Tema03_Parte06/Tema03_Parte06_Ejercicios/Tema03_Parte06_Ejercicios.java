@@ -93,15 +93,26 @@ public class Tema03_Parte06_Ejercicios {
         longitud = longitud-n;
 
         for(int f = 0; f < longitud; f++){
-            //Por aqui me quede
+            aux2 = aux2 + String.valueOf(aux.charAt(f));
         }
 
-        return 0;
+        num = Integer.parseInt(aux2);
+
+        return num;
     }
 
     public static int quitaPorDelante(int n, int num){
+        String aux = ""+num;
+        String aux2 = "";
 
-        return 0;
+
+        for(int f = 0; n < aux.length(); n++){
+            aux2 = aux2 + String.valueOf(aux.charAt(n));
+        }
+
+        num = Integer.parseInt(aux2);
+
+        return num;
     }
 
     public static int pegaPorDetras(int n, int num){
@@ -147,6 +158,15 @@ public class Tema03_Parte06_Ejercicios {
                 System.out.println(f+" es capicua");
             }
         }
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println(quitaPorDetras(2,512));
+        System.out.println(quitaPorDelante(2,1024));
+
+
+        System.out.println();
+        System.out.println(voltea(155));
 
         //17
 
