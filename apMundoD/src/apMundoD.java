@@ -30,8 +30,7 @@ public class apMundoD {
     private JLabel lbl_Aeropuerto2;
     private JPanel panel_inf;
     private JButton btn_Calcular;
-    private JTextArea txtarea_distancia;
-    private JButton btn_Iniciar;
+    private JLabel lbl_Distancia;
 
     private static ArrayList<String> paises = new ArrayList<String>();
     private static ArrayList<String> resultados = new ArrayList<String>();
@@ -43,59 +42,55 @@ public class apMundoD {
     private static double longitudB = 0;
 
     public apMundoD() {
-        btn_Iniciar.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                //Boton Iniciar
 
-                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-                try {
-                    DocumentBuilder builder = factory.newDocumentBuilder();
-                    File inputFile = new File("aeropuertos.xml");
-                    DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-                    DocumentBuilder dBuilder;
-                    dBuilder = dbFactory.newDocumentBuilder();
-                    Document doc = dBuilder.parse(inputFile);
-                    doc.getDocumentElement().normalize();
-                    System.out.println("get");
-                    XPath xPath = XPathFactory.newInstance().newXPath();
-                    XPathExpression expression = xPath.compile("//aeropuerto");
-                    NodeList nodeList = (NodeList) expression.evaluate(doc, XPathConstants.NODESET);
-                    System.out.println("nodos " + nodeList.getLength());
-                    for (int n = nodeList.getLength() - 1; n >= 0; n--) {
-                        Node nodo = nodeList.item(n);
-                        short nodeType = nodo.getNodeType();
-                        if (nodeType == Node.ELEMENT_NODE) {
-                            paises.add(nodo.getAttributes().getNamedItem("pais").getNodeValue());
-                        }
-                    }
-                    System.out.println(paises.toString());
-                    Collections.sort(paises);
-
-
-                    //Eliminación de los duplicados en la ArrayList paises
-                    //https://javarevisited.blogspot.com/2012/12/how-to-remove-duplicates-elements-from-ArrayList-Java.html
-                    LinkedHashSet<String> listToSet = new LinkedHashSet<String>(paises);
-                    ArrayList<String> paises_limpio = new ArrayList<String>(listToSet);
-
-
-                    for(String aux : paises_limpio){
-                        combo_Pais.addItem(aux);
-                        combo_Pais2.addItem(aux);
-                    }
-
-                } catch (ParserConfigurationException e) {
-                    e.printStackTrace();
-                } catch (SAXException e) {
-                    e.printStackTrace();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (XPathExpressionException e) {
-                    e.printStackTrace();
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        try {
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            File inputFile = new File("aeropuertos.xml");
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder;
+            dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(inputFile);
+            doc.getDocumentElement().normalize();
+            System.out.println("get");
+            XPath xPath = XPathFactory.newInstance().newXPath();
+            XPathExpression expression = xPath.compile("//aeropuerto");
+            NodeList nodeList = (NodeList) expression.evaluate(doc, XPathConstants.NODESET);
+            System.out.println("nodos " + nodeList.getLength());
+            for (int n = nodeList.getLength() - 1; n >= 0; n--) {
+                Node nodo = nodeList.item(n);
+                short nodeType = nodo.getNodeType();
+                if (nodeType == Node.ELEMENT_NODE) {
+                    paises.add(nodo.getAttributes().getNamedItem("pais").getNodeValue());
                 }
-
             }
-        });
+            System.out.println(paises.toString());
+            Collections.sort(paises);
+
+
+            //Eliminación de los duplicados en la ArrayList paises
+            //https://javarevisited.blogspot.com/2012/12/how-to-remove-duplicates-elements-from-ArrayList-Java.html
+            LinkedHashSet<String> listToSet = new LinkedHashSet<String>(paises);
+            ArrayList<String> paises_limpio = new ArrayList<String>(listToSet);
+
+
+            for(String aux : paises_limpio){
+                combo_Pais.addItem(aux);
+                combo_Pais2.addItem(aux);
+            }
+
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XPathExpressionException e) {
+            e.printStackTrace();
+        }
+
+
+
 
 
         combo_Pais.addActionListener(new ActionListener() {
@@ -230,10 +225,10 @@ public class apMundoD {
                         }
                     }
 
-                    txtarea_distancia.setText(latitudA + "\n" + longitudA + "\n" + "\n"+latitudB+ "\n" + longitudB+"");
-//
+                    System.out.println("Coordenadas de A:"+"\n"+latitudA + "\n" + longitudA +"\n");
+                    System.out.println("Coordenadas de B:"+"\n"+latitudB + "\n" + longitudB+"\n");
 
-                    txtarea_distancia.append("\n"+"\n"+ coordstodistance.distance(latitudA,longitudA,latitudB,longitudB,'K'));
+                    lbl_Distancia.setText("Distancia: "+ coordstodistance.distance(latitudA,longitudA,latitudB,longitudB,'K')+" Km   ");
 
 
 
@@ -255,7 +250,7 @@ public class apMundoD {
         JFrame frame = new JFrame("apMundoD");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(new apMundoD().panel_Main);
-        frame.setSize(550, 300);
+        frame.setSize(450, 300);
 //        frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
