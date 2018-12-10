@@ -1,5 +1,6 @@
 package Tema03_Parte06.Tema03_Parte06_Ejercicios;
 
+
 import java.util.Random;
 
 public class Tema03_Parte06_Ejercicios2 {
@@ -12,6 +13,11 @@ public class Tema03_Parte06_Ejercicios2 {
             aux = random.nextInt(maxintervalo)+minintervalo;
         }
     }
+
+    Tema03_Parte06_Ejercicios2(){
+        System.out.println("phola");
+    }
+
 
     public static int minimoArrayInt(int array[]){
         int menor = 100000;

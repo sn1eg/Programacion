@@ -47,8 +47,13 @@ public class Tema03_Parte06_Ejercicios {
     }
 
     public static int siguientePrimo(int num){
-
-        return 0;
+        num++;
+        for(int f = 0; num < 1000; num++){
+            if(esPrimo(num)){
+                return num;
+            }
+        }
+        return -1;
     }
 
     public static int potencia(int n, int num){
@@ -57,7 +62,7 @@ public class Tema03_Parte06_Ejercicios {
     }
 
     public static int digitos(int num){
-        String aux = "num";
+        String aux = num+"";
         num = aux.length();
         return num;
     }
@@ -142,6 +147,9 @@ public class Tema03_Parte06_Ejercicios {
 
 
     public static void main(String[]args){
+
+
+        System.out.println(siguientePrimo(14));
 
         //15
         for(int f = 1; f <= 1000; f++){
