@@ -12,10 +12,16 @@ public class Ejercicio02_RobertoJMunozdeLeonMarfil_S11AW {
     static void cargarNombres(){
         Scanner teclado = new Scanner(System.in);
 
+        //Entrada de texto por teclado con control de que unicamente sean caracteres alfabeticos
         for(int f = 0; f < pilotos.length; f++){
             System.out.println("Introduce el nombre del piloto nº "+f+":");
-            pilotos[f] = teclado.nextLine();
+            while (!teclado.hasNext("[A-Za-z]+")) {
+                System.out.println("¡¡Solo se admiten letras mayúsculas y minúsculas!!");
+                teclado.next();
+            }
+            pilotos[f] = teclado.next();
         }
+
     }
 
     static void cargarTabla(){
