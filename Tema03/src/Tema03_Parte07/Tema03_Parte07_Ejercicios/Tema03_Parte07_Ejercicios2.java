@@ -1,9 +1,9 @@
-package Tema03_Parte06.Tema03_Parte06_Ejercicios;
+package Tema03_Parte07.Tema03_Parte07_Ejercicios;
 
 
 import java.util.Random;
 
-public class Tema03_Parte06_Ejercicios2 {
+public class Tema03_Parte07_Ejercicios2 {
 
     public static void generaArrayInt(int maxintervalo, int minintervalo, int longitud, int array[]){
         Random random = new Random();
@@ -14,7 +14,7 @@ public class Tema03_Parte06_Ejercicios2 {
         }
     }
 
-    Tema03_Parte06_Ejercicios2(){
+    Tema03_Parte07_Ejercicios2(){
         System.out.println("phola");
     }
 

@@ -1,6 +1,6 @@
-package Tema03_Parte06.Tema03_Parte06_Ejercicios;
+package Tema03_Parte07.Tema03_Parte07_Ejercicios;
 
-public class Tema03_Parte06_Ejercicios {
+public class Tema03_Parte07_Ejercicios {
 
     public static boolean esCapicua(int num){
 

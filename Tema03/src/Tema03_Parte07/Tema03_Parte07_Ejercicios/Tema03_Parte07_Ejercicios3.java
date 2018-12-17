@@ -1,9 +1,9 @@
-package Tema03_Parte06.Tema03_Parte06_Ejercicios;
+package Tema03_Parte07.Tema03_Parte07_Ejercicios;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Tema03_Parte06_Ejercicios3 {
+public class Tema03_Parte07_Ejercicios3 {
 
     public static int[][] generaArrayBiInt(int n, int m, int array[][]){
         array = new int[n][m];
