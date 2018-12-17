@@ -1,4 +1,4 @@
-package Tema03_Parte07.Tema03_Parte07_Ejercicios;
+package Tema03_Parte07_Ejercicios;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -2,11 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte07/Tema03_Parte07.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte09/Tema03_Parte09.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/Tema03_Parte01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/Tema03_Parte01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Tema03_Parte01_Ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Tema03_Parte01_Ejercicio01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio02/Tema03_Parte01_Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio02/Tema03_Parte01_Ejercicio02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio03/Tema03_Parte01_Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio03/Tema03_Parte01_Ejercicio03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio04/Tema03_Parte01_Ejercicio04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio04/Tema03_Parte01_Ejercicio04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio05/Tema03_Parte01_Ejercicio05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio05/Tema03_Parte01_Ejercicio05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio06/Tema03_Parte01_Ejercicio06.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio06/Tema03_Parte01_Ejercicio06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio07/Tema03_Parte01_Ejercicio07.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio07/Tema03_Parte01_Ejercicio07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio08/Tema03_Parte_01_Ejercicio08.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio08/Tema03_Parte_01_Ejercicio08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio11/Tema03_Parte01_Ejercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio11/Tema03_Parte01_Ejercicio11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio14/Tema03_Parte01_Ejercicio14.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio14/Tema03_Parte01_Ejercicio14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio15/Tema03_Parte01_Ejercicio15.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio15/Tema03_Parte01_Ejercicio15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte02/Tema03_Parte02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte02/Tema03_Parte02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte03/Tema03_Parte03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte03/Tema03_Parte03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio01/Tema03_Parte03_Ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio01/Tema03_Parte03_Ejercicio01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio02/Tema03_Parte03_Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio02/Tema03_Parte03_Ejercicio02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio03/Tema03_Parte03_Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio03/Tema03_Parte03_Ejercicio03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio04/Tema03_Parte03_Ejercicio04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio04/Tema03_Parte03_Ejercicio04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio05/Tema03_Parte03_Ejercicio05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio05/Tema03_Parte03_Ejercicio05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/Tema03_Parte04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/Tema03_Parte04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio01/Tema03_Parte04_Ejercicio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio01/Tema03_Parte04_Ejercicio01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio02/Tema03_Parte04_Ejercicio02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio02/Tema03_Parte04_Ejercicio02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio08/Tema03_Parte04_Ejercicio08.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio08/Tema03_Parte04_Ejercicio08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio10/Tema03_Parte04_Ejercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio10/Tema03_Parte04_Ejercicio10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio11/Tema03_Parte04_Ejercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio11/Tema03_Parte04_Ejercicio11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio13/Tema03_Parte04_Ejercicio13.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio13/Tema03_Parte04_Ejercicio13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio14/Tema03_Parte04_Ejercicio14.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio14/Tema03_Parte04_Ejercicio14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +53,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="27376" />
+    <option name="totalTimeSeconds" value="27378" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tema03_Parte09/src/Tema03_Parte09_Ejercicio01/Tema03_Parte09_Ejercicio01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,9 +132,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="37" />
-    <option name="width" value="673" />
-    <option name="height" value="739" />
+    <option name="y" value="181" />
+    <option name="width" value="683" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,20 +153,18 @@
             <path>
               <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tema03_Parte07" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tema03" type="462c0819:PsiDirectoryNode" />
+              <item name="Tema03_Parte09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
+              <item name="Tema03_Parte09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte07" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte07_Ejercicios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,8 +174,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545049064834" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545050550200" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
@@ -318,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544442744829</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Programacion">
+      <created>1545049073196</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545049073196</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -362,19 +423,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
+          <url>file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
           <line>128</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
+          <url>file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
           <line>145</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
+          <url>file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java</url>
           <line>159</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -383,35 +444,35 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Juanlu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Tema03_Parte01_Ejercicio01.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio01/Tema03_Parte01_Ejercicio01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio04/Tema03_Parte01_Ejercicio04.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio04/Tema03_Parte01_Ejercicio04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio05/Tema03_Parte01_Ejercicio05.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio05/Tema03_Parte01_Ejercicio05.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio06/Tema03_Parte01_Ejercicio06.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio06/Tema03_Parte01_Ejercicio06.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
@@ -419,140 +480,133 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte02_Ejercicio01/Tema03_Parte02_Ejercicio01.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio03/Tema03_Parte01_Ejercicio03.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio03/Tema03_Parte01_Ejercicio03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio05/Tema03_Parte03_Ejercicio05.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio05/Tema03_Parte03_Ejercicio05.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio10/Tema03_Parte04_Ejercicio10.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio10/Tema03_Parte04_Ejercicio10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="71" column="5" selection-end-line="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio11/Tema03_Parte04_Ejercicio11.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio11/Tema03_Parte04_Ejercicio11.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="164" column="18" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio04/Tema03_Parte03_Ejercicio04.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio04/Tema03_Parte03_Ejercicio04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio03/Tema03_Parte03_Ejercicio03.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio03/Tema03_Parte03_Ejercicio03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio02/Tema03_Parte03_Ejercicio02.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio02/Tema03_Parte03_Ejercicio02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte03/src/Tema03_Parte03_Ejercicio01/Tema03_Parte03_Ejercicio01.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte03/src/Tema03_Parte03_Ejercicio01/Tema03_Parte03_Ejercicio01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio15/Tema03_Parte01_Ejercicio15.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio15/Tema03_Parte01_Ejercicio15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio02/Tema03_Parte01_Ejercicio02.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio02/Tema03_Parte01_Ejercicio02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio07/Tema03_Parte01_Ejercicio07.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio07/Tema03_Parte01_Ejercicio07.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio08/Tema03_Parte_01_Ejercicio08.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio08/Tema03_Parte_01_Ejercicio08.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio11/Tema03_Parte01_Ejercicio11.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio11/Tema03_Parte01_Ejercicio11.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte01/src/Tema03_Parte01_Ejercicio14/Tema03_Parte01_Ejercicio14.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte01/src/Tema03_Parte01_Ejercicio14/Tema03_Parte01_Ejercicio14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio02/Tema03_Parte04_Ejercicio02.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio02/Tema03_Parte04_Ejercicio02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio08/Tema03_Parte04_Ejercicio08.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio08/Tema03_Parte04_Ejercicio08.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio09/Tema03_Parte04_Ejercicio09.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="30" column="11" selection-start-line="24" selection-start-column="29" selection-end-line="30" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio12/Tema03_Parte04_Ejercicio12.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
@@ -560,7 +614,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/deleteme.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio15/Tema03_Parte04_Ejercicio15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="169" selection-start-line="169" selection-end-line="169" />
@@ -570,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/src/src/Tema03_Parte06_Ejercicio1_14/Tema03_Parte06_Ejercicio1_14.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio01/Tema03_Parte04_Ejercicio01.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio01/Tema03_Parte04_Ejercicio01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="20" />
@@ -584,7 +638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios3.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
@@ -595,28 +649,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio14/Tema03_Parte04_Ejercicio13.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio14/Tema03_Parte04_Ejercicio14.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio14/Tema03_Parte04_Ejercicio14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio13/Tema03_Parte04_Ejercicio13.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio13/Tema03_Parte04_Ejercicio13.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
           <caret line="151" column="27" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema03_Parte07/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios2.java">
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-503">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
@@ -624,6 +678,20 @@
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#480#481#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte09/src/Tema03_Parte09_Ejercicio01/Tema03_Parte09_Ejercicio01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package Tema03_Parte07.Tema03_Parte07_Ejercicios;
+package Tema03_Parte07_Ejercicios;
 
 public class Tema03_Parte07_Ejercicios {
 

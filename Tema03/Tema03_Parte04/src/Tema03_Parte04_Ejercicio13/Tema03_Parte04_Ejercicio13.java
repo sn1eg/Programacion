@@ -1,4 +1,4 @@
-package Tema03_Parte04.src.Tema03_Parte04_Ejercicio13;
+package Tema03_Parte04_Ejercicio13;
 
 import java.util.ArrayList;
 
