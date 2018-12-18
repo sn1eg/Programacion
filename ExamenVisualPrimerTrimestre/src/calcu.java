@@ -13,6 +13,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class calcu {
     private JPanel panel_Main;
@@ -22,7 +23,6 @@ public class calcu {
     private JTextArea txta_resultados;
     private JScrollPane scroll_right;
 
-    private static ArrayList<String> valores_claves = new ArrayList<String>();
     private static ArrayList<String> valores_nombres = new ArrayList<String>();
 
     private static ArrayList<String> lista_id = new ArrayList<String>();
@@ -71,12 +71,12 @@ public class calcu {
                 Node nodo = nodeList.item(n);
                 short nodeType = nodo.getNodeType();
                 if (nodeType == Node.ELEMENT_NODE) {
-                    valores_claves.add(nodo.getAttributes().getNamedItem("valor").getNodeValue());
                     valores_nombres.add(nodo.getFirstChild().getNodeValue());
                 }
             }
-            System.out.println(valores_claves.toString());
+
             System.out.println(valores_nombres.toString());
+            Collections.sort(valores_nombres);
 
 
 
@@ -127,11 +127,10 @@ public class calcu {
                     dBuilder = dbFactory.newDocumentBuilder();
                     Document doc_claves = dBuilder.parse(inputFile_claves);
                     doc_claves.getDocumentElement().normalize();
-                    System.out.println("get");
                     XPath xPath = XPathFactory.newInstance().newXPath();
                     XPathExpression expression = xPath.compile("//comentario[contains(text(),'"+sintoma+"')]");
                     NodeList nodeList = (NodeList) expression.evaluate(doc_claves, XPathConstants.NODESET);
-                    System.out.println("nodos " + nodeList.getLength());
+                    System.out.println('\n'+ "Cantidad de nodos: " + nodeList.getLength());
                     for (int n = nodeList.getLength() - 1; n >= 0; n--) {
                         Node nodo = nodeList.item(n);
                         short nodeType = nodo.getNodeType();
