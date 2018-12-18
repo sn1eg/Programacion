@@ -111,6 +111,9 @@ public class calcu {
         btn_buscar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
+
+                txta_resultados.setText("");
+
                 String sintoma = buttongroup_nombres.getSelection().getActionCommand();
                 System.out.println("Sintoma seleccionado "+sintoma);
 
@@ -126,20 +129,26 @@ public class calcu {
                     doc_claves.getDocumentElement().normalize();
                     System.out.println("get");
                     XPath xPath = XPathFactory.newInstance().newXPath();
-                    XPathExpression expression = xPath.compile("//comentario[contains(.,'sintoma')]");
+                    XPathExpression expression = xPath.compile("//comentario[contains(text(),'"+sintoma+"')]");
                     NodeList nodeList = (NodeList) expression.evaluate(doc_claves, XPathConstants.NODESET);
                     System.out.println("nodos " + nodeList.getLength());
                     for (int n = nodeList.getLength() - 1; n >= 0; n--) {
                         Node nodo = nodeList.item(n);
                         short nodeType = nodo.getNodeType();
                         if (nodeType == Node.ELEMENT_NODE) {
-                            System.out.println(nodo.getParentNode().getAttributes().getNamedItem("id").getNodeValue());
+                            System.out.println("YOLOOOOOO "+nodo.getFirstChild().getNodeValue());
+//                            lista_id.add(nodo.getFirstChild().getNodeValue());
+                            lista_id.add(nodo.getParentNode().getAttributes().getNamedItem("id").getNodeValue());
+
+//                            valores_nombres.add(nodo.getFirstChild().getNodeValue());
+
 //                            valores_claves.add(nodo.getAttributes().getNamedItem("valor").getNodeValue());
 //                            valores_nombres.add(nodo.getFirstChild().getNodeValue());
                         }
                     }
                     System.out.println(lista_id.toString());
 
+                    txta_resultados.setText("encontrados "+nodeList.getLength()+'\n');
                     lista_id.forEach((id) -> txta_resultados.append(id + '\n'));
 
                     lista_id.clear();
