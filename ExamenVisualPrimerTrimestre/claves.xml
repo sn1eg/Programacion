@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terminos>
+	<clave valor="2">hiperactividad</clave>
+	<clave valor="3">asma</clave>
+	<clave valor="3">alergia</clave>
+	<clave valor="3">alergias</clave>
+	<clave valor="2">eczemas</clave>
+	<clave valor="2">urticaria</clave>
+	<clave valor="1">insomnio</clave>
+	<clave valor="10">cáncer</clave>
+	<clave valor="10">cancerígeno</clave>
+	<clave valor="1">intolerancia</clave>
+	<clave valor="4">cálculos</clave>
+	<clave valor="10">tumor</clave>
+	<clave valor="10">tumores</clave>
+	<clave valor="5">hipotiroidismo</clave>
+	<clave valor="2">fototoxicidad</clave>
+	<clave valor="2">fotosensibilidad</clave>
+	<clave valor="1">problemas digestivos</clave>
+	<clave valor="1">malestares digestivos</clave>
+	<clave valor="2">agorafobia</clave>
+	<clave valor="1">diarreas</clave>
+	<clave valor="2">irritación del tubo digestivo</clave>
+</terminos>
