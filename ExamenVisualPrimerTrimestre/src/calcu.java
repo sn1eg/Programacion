@@ -32,25 +32,6 @@ public class calcu {
     ButtonGroup buttongroup_nombres = new ButtonGroup();
 
 
-
-//    DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-//        try {
-//            DocumentBuilder builder = factory.newDocumentBuilder();
-//        } catch (ParserConfigurationException e) {
-//            e.printStackTrace();
-//        }
-//        File inputFile = new File("aeropuertos.xml");
-//        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-//        DocumentBuilder dBuilder;
-//        dBuilder = dbFactory.newDocumentBuilder();
-//        Document doc = dBuilder.parse(inputFile);
-//        doc.getDocumentElement().normalize();
-//    }
-
-
-
-
-
     public calcu(){
         //Creamos el documento e introducimos el xml en el documento
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -62,7 +43,6 @@ public class calcu {
             dBuilder = dbFactory.newDocumentBuilder();
             Document doc_claves = dBuilder.parse(inputFile_claves);
             doc_claves.getDocumentElement().normalize();
-            System.out.println("get");
             XPath xPath = XPathFactory.newInstance().newXPath();
             XPathExpression expression = xPath.compile("//clave");
             NodeList nodeList = (NodeList) expression.evaluate(doc_claves, XPathConstants.NODESET);
@@ -77,8 +57,6 @@ public class calcu {
 
             System.out.println(valores_nombres.toString());
             Collections.sort(valores_nombres);
-
-
 
 
             // Usamos BoxLayout para que los radiobuttons se añadan de forma dinamica en el.
@@ -112,6 +90,7 @@ public class calcu {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
 
+                //Limpiamos la el text area por si se hace una nueva busqueda
                 txta_resultados.setText("");
 
                 String sintoma = buttongroup_nombres.getSelection().getActionCommand();
@@ -145,6 +124,7 @@ public class calcu {
                     txta_resultados.setText("encontrados "+nodeList.getLength()+'\n');
                     lista_id.forEach((id) -> txta_resultados.append(id + '\n'));
 
+                    //Limpiamos la lista por si se hace una nueva busqueda
                     lista_id.clear();
 
 
