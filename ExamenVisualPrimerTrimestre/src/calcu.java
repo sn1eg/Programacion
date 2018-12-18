@@ -25,6 +25,8 @@ public class calcu {
     private static ArrayList<String> valores_claves = new ArrayList<String>();
     private static ArrayList<String> valores_nombres = new ArrayList<String>();
 
+    private static ArrayList<String> lista_id = new ArrayList<String>();
+
 
     // https://docs.oracle.com/javase/tutorial/uiswing/components/button.html
     ButtonGroup buttongroup_nombres = new ButtonGroup();
@@ -32,13 +34,18 @@ public class calcu {
 
 
 //    DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-//        DocumentBuilder builder = factory.newDocumentBuilder();
+//        try {
+//            DocumentBuilder builder = factory.newDocumentBuilder();
+//        } catch (ParserConfigurationException e) {
+//            e.printStackTrace();
+//        }
 //        File inputFile = new File("aeropuertos.xml");
 //        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 //        DocumentBuilder dBuilder;
 //        dBuilder = dbFactory.newDocumentBuilder();
 //        Document doc = dBuilder.parse(inputFile);
 //        doc.getDocumentElement().normalize();
+//    }
 
 
 
@@ -49,16 +56,16 @@ public class calcu {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            File inputFile = new File("claves.xml");
+            File inputFile_claves = new File("claves.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder;
             dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(inputFile);
-            doc.getDocumentElement().normalize();
+            Document doc_claves = dBuilder.parse(inputFile_claves);
+            doc_claves.getDocumentElement().normalize();
             System.out.println("get");
             XPath xPath = XPathFactory.newInstance().newXPath();
             XPathExpression expression = xPath.compile("//clave");
-            NodeList nodeList = (NodeList) expression.evaluate(doc, XPathConstants.NODESET);
+            NodeList nodeList = (NodeList) expression.evaluate(doc_claves, XPathConstants.NODESET);
             System.out.println("nodos " + nodeList.getLength());
             for (int n = nodeList.getLength() - 1; n >= 0; n--) {
                 Node nodo = nodeList.item(n);
@@ -106,6 +113,62 @@ public class calcu {
             public void actionPerformed(ActionEvent actionEvent) {
                 String sintoma = buttongroup_nombres.getSelection().getActionCommand();
                 System.out.println("Sintoma seleccionado "+sintoma);
+
+
+                DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+                try {
+                    DocumentBuilder builder = factory.newDocumentBuilder();
+                    File inputFile_claves = new File("calculadora.xml");
+                    DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+                    DocumentBuilder dBuilder;
+                    dBuilder = dbFactory.newDocumentBuilder();
+                    Document doc_claves = dBuilder.parse(inputFile_claves);
+                    doc_claves.getDocumentElement().normalize();
+                    System.out.println("get");
+                    XPath xPath = XPathFactory.newInstance().newXPath();
+                    XPathExpression expression = xPath.compile("//comentario[contains(.,'sintoma')]");
+                    NodeList nodeList = (NodeList) expression.evaluate(doc_claves, XPathConstants.NODESET);
+                    System.out.println("nodos " + nodeList.getLength());
+                    for (int n = nodeList.getLength() - 1; n >= 0; n--) {
+                        Node nodo = nodeList.item(n);
+                        short nodeType = nodo.getNodeType();
+                        if (nodeType == Node.ELEMENT_NODE) {
+                            System.out.println(nodo.getParentNode().getAttributes().getNamedItem("id").getNodeValue());
+//                            valores_claves.add(nodo.getAttributes().getNamedItem("valor").getNodeValue());
+//                            valores_nombres.add(nodo.getFirstChild().getNodeValue());
+                        }
+                    }
+                    System.out.println(lista_id.toString());
+
+                    lista_id.forEach((id) -> txta_resultados.append(id + '\n'));
+
+                    lista_id.clear();
+
+
+                    for(int f = 0; f < nodeList.getLength(); f++){
+                        JRadioButton radio_opcion = new JRadioButton(valores_nombres.get(f));
+                        //Le establecemos un comando al  botón para poder obtener luego su nombre
+                        radio_opcion.setActionCommand(valores_nombres.get(f));
+
+                        //Añadimos el boton al grupo de botones y lo añadimos al panel.
+                        buttongroup_nombres.add(radio_opcion);
+                        panel_left.add(radio_opcion);
+                        System.out.println(radio_opcion.getText());
+                    }
+
+
+                } catch (ParserConfigurationException e) {
+                    e.printStackTrace();
+                } catch (SAXException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+
+
             }
         });
     }
