@@ -8,12 +8,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.*;
-import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedHashSet;
 
 public class calcu {
     private JPanel panel_Main;
@@ -23,9 +22,30 @@ public class calcu {
     private JTextArea txta_resultados;
     private JScrollPane scroll_right;
 
-    private static ArrayList<String> sintomas = new ArrayList<String>();
+    private static ArrayList<String> valores_claves = new ArrayList<String>();
+    private static ArrayList<String> valores_nombres = new ArrayList<String>();
+
+
+    // https://docs.oracle.com/javase/tutorial/uiswing/components/button.html
+    ButtonGroup buttongroup_nombres = new ButtonGroup();
+
+
+
+//    DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+//        DocumentBuilder builder = factory.newDocumentBuilder();
+//        File inputFile = new File("aeropuertos.xml");
+//        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+//        DocumentBuilder dBuilder;
+//        dBuilder = dbFactory.newDocumentBuilder();
+//        Document doc = dBuilder.parse(inputFile);
+//        doc.getDocumentElement().normalize();
+
+
+
+
 
     public calcu(){
+        //Creamos el documento e introducimos el xml en el
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -44,36 +64,31 @@ public class calcu {
                 Node nodo = nodeList.item(n);
                 short nodeType = nodo.getNodeType();
                 if (nodeType == Node.ELEMENT_NODE) {
-                    sintomas.add(nodo.getAttributes().getNamedItem("valor").getNodeValue());
+                    valores_claves.add(nodo.getAttributes().getNamedItem("valor").getNodeValue());
+                    valores_nombres.add(nodo.getFirstChild().getNodeValue());
                 }
             }
-            System.out.println(sintomas.toString());
+            System.out.println(valores_claves.toString());
+            System.out.println(valores_nombres.toString());
 
 
-            //Eliminación de los duplicados en la ArrayList paises
-            //https://javarevisited.blogspot.com/2012/12/how-to-remove-duplicates-elements-from-ArrayList-Java.html
-//            LinkedHashSet<String> listToSet = new LinkedHashSet<String>(paises);
-//            ArrayList<String> paises_limpio = new ArrayList<String>(listToSet);
 
 
-//            GridBagConstraints lblConstraints = new GridBagConstraints();
-//            int z = 0;
-//            int x = 0;
-
+            // Usamos BoxLayout para que los radiobuttons se añadan de forma dinamica en el.
+            // https://stackoverflow.com/questions/1534889/how-to-make-jlabels-start-on-the-next-line
             panel_left.setLayout(new BoxLayout(panel_left, BoxLayout.Y_AXIS));
-            for(String aux : sintomas){
-//                lblConstraints.gridx = 0;
-//                lblConstraints.gridy = z;
-//                z++;
-//                System.out.println(z);
-//                x++;
-                JRadioButton radio_opcion = new JRadioButton();
-                JLabel lbl_radio = new JLabel();
-                lbl_radio.setText(aux);
-//                radio_opcion.
-                panel_left.add(lbl_radio);
-//                panel_left.revalidate();
+
+            for(int f = 0; f < nodeList.getLength(); f++){
+                JRadioButton radio_opcion = new JRadioButton(valores_nombres.get(f));
+                //Le establecemos un comando al  botón para poder obtener luego su nombre
+                radio_opcion.setActionCommand(valores_nombres.get(f));
+
+                //Añadimos el boton al grupo de botones y lo añadimos al panel.
+                buttongroup_nombres.add(radio_opcion);
+                panel_left.add(radio_opcion);
+                System.out.println(radio_opcion.getText());
             }
+
 
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
@@ -84,6 +99,15 @@ public class calcu {
         } catch (XPathExpressionException e) {
             e.printStackTrace();
         }
+
+
+        btn_buscar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                String sintoma = buttongroup_nombres.getSelection().getActionCommand();
+                System.out.println("Sintoma seleccionado "+sintoma);
+            }
+        });
     }
 
 
@@ -91,7 +115,7 @@ public class calcu {
         JFrame frame = new JFrame("Calculadora componentes");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(new calcu().panel_Main);
-        frame.setSize(550, 300);
+        frame.setSize(550, 550);
         //frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
