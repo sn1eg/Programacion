@@ -52,7 +52,7 @@ public class calcu {
 
 
     public calcu(){
-        //Creamos el documento e introducimos el xml en el
+        //Creamos el documento e introducimos el xml en el documento
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -135,6 +135,8 @@ public class calcu {
                         Node nodo = nodeList.item(n);
                         short nodeType = nodo.getNodeType();
                         if (nodeType == Node.ELEMENT_NODE) {
+                            /*La busqueda con XPath nos da como resultado aquellos nodos "comentario" que contienen el sintoma a buscar, así que
+                              nos vamos al elemento padre, y seleccionarmos el atributo id y nos quedamos con su valor*/
                             lista_id.add(nodo.getParentNode().getAttributes().getNamedItem("id").getNodeValue());
                         }
                     }
