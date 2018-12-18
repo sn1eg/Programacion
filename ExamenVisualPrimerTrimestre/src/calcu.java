@@ -136,14 +136,7 @@ public class calcu {
                         Node nodo = nodeList.item(n);
                         short nodeType = nodo.getNodeType();
                         if (nodeType == Node.ELEMENT_NODE) {
-                            System.out.println("YOLOOOOOO "+nodo.getFirstChild().getNodeValue());
-//                            lista_id.add(nodo.getFirstChild().getNodeValue());
                             lista_id.add(nodo.getParentNode().getAttributes().getNamedItem("id").getNodeValue());
-
-//                            valores_nombres.add(nodo.getFirstChild().getNodeValue());
-
-//                            valores_claves.add(nodo.getAttributes().getNamedItem("valor").getNodeValue());
-//                            valores_nombres.add(nodo.getFirstChild().getNodeValue());
                         }
                     }
                     System.out.println(lista_id.toString());
@@ -152,18 +145,6 @@ public class calcu {
                     lista_id.forEach((id) -> txta_resultados.append(id + '\n'));
 
                     lista_id.clear();
-
-
-                    for(int f = 0; f < nodeList.getLength(); f++){
-                        JRadioButton radio_opcion = new JRadioButton(valores_nombres.get(f));
-                        //Le establecemos un comando al  botón para poder obtener luego su nombre
-                        radio_opcion.setActionCommand(valores_nombres.get(f));
-
-                        //Añadimos el boton al grupo de botones y lo añadimos al panel.
-                        buttongroup_nombres.add(radio_opcion);
-                        panel_left.add(radio_opcion);
-                        System.out.println(radio_opcion.getText());
-                    }
 
 
                 } catch (ParserConfigurationException e) {
