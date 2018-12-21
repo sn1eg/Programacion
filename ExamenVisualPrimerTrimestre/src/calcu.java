@@ -107,9 +107,9 @@ public class calcu {
                     Document doc_claves = dBuilder.parse(inputFile_claves);
                     doc_claves.getDocumentElement().normalize();
                     XPath xPath = XPathFactory.newInstance().newXPath();
-                    XPathExpression expression = xPath.compile("//comentario[contains(text(),'"+sintoma+"')]");
+                    XPathExpression expression = xPath.compile("//comentario[contains(text(),'" + sintoma + "')]");
                     NodeList nodeList = (NodeList) expression.evaluate(doc_claves, XPathConstants.NODESET);
-                    System.out.println('\n'+ "Cantidad de nodos: " + nodeList.getLength());
+                    System.out.println('\n' + "Cantidad de nodos: " + nodeList.getLength());
                     for (int n = nodeList.getLength() - 1; n >= 0; n--) {
                         Node nodo = nodeList.item(n);
                         short nodeType = nodo.getNodeType();
@@ -121,7 +121,7 @@ public class calcu {
                     }
                     System.out.println(lista_id.toString());
 
-                    txta_resultados.setText("encontrados "+nodeList.getLength()+'\n');
+                    txta_resultados.setText("encontrados " + nodeList.getLength() + '\n');
                     lista_id.forEach((id) -> txta_resultados.append(id + '\n'));
 
                     //Limpiamos la lista por si se hace una nueva busqueda
@@ -143,6 +143,7 @@ public class calcu {
             }
         });
     }
+
 
 
     public static void main(String[] args){
