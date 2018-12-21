@@ -115,6 +115,7 @@ public class apMundo {
                     resultados.clear();
 
 
+
                 } catch (XPathExpressionException e) {
                     e.printStackTrace();
                 } catch (ParserConfigurationException e) {

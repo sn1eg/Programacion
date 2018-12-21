@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73129844-9bb2-4d46-a487-9be9c6aaded8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EstudiandoVisualsEquisde/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EstudiandoVisualsEquisde/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EstudiandoVisualsEquisde/src/MiEjersisioEquisde/Aiuda.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EstudiandoVisualsEquisde/src/MiEjersisioEquisde/Aiuda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenVisualPrimerTrimestre/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenVisualPrimerTrimestre/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenVisualPrimerTrimestre/src/calcu.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenVisualPrimerTrimestre/src/calcu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tema03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calCromos/calCromos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calCromos.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/calCromos.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calCromos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calCromos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apMundo/src/apMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../apMundo/src/apMundo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/parseXML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/parseXML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/src/PALABRAS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/src/PALABRAS.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/src/david.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/src/david.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/src/parseXML.form" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/src/parseXML.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parseXML/src/parseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/../parseXML/src/parseXML.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,80 +29,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="536763573">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="form" value="2" />
-          <entry key="java" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="GUI_DESIGNER_FORM" value="2" />
-          <entry key="JAVA" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1808" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1808" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="766312140">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="563" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="563" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="91587522">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/calCromos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="31" column="14" lean-forward="true" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -172,7 +118,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="181" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18939394" />
@@ -193,6 +139,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32626426" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -203,16 +150,13 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/menu.form" />
     <entry file="file://$PROJECT_DIR$/src/menu.java" />
     <entry file="file://$PROJECT_DIR$/src/calCromos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="31" column="14" lean-forward="true" selection-end-line="119" />
         </state>
       </provider>
     </entry>
