@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/Tema03_Parte10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio1/Tema03_Parte10_Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xd/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xd/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xd/PocketMonster/src/Pichu/Pichu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xd/PocketMonster/src/Pichu/Pikachu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xd/PocketMonster/src/main/partida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xd/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/out/production/xd/Orco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/out/production/xd/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/out/production/xd/menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/src/Orco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/src/menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xd/xd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../xd/xd.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,10 +31,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="27552" />
+    <option name="totalTimeSeconds" value="31249" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding>
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,13 +110,18 @@
         <option value="$PROJECT_DIR$/src/Tema03_Parte06/Tema03_Parte06_Ejercicios/Tema03_Parte06_Ejercicios2.java" />
         <option value="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio14/Tema03_Parte04_Ejercicio14.java" />
         <option value="$PROJECT_DIR$/src/Tema03_Parte04/src/Tema03_Parte04_Ejercicio13/Tema03_Parte04_Ejercicio13.java" />
+        <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio1/Tema03_Parte10_Ejercicio1.java" />
+        <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Tema03_Parte10_Ejercicio2.java" />
+        <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java" />
+        <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="181" />
-    <option name="width" value="683" />
-    <option name="height" value="741" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="27" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -83,7 +130,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,14 +137,20 @@
               <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tema03" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
+              <item name="Tema03_Parte10" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545050647004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547112104589" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -125,7 +177,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Tema03_Parte04_Ejercicio03">
+  <component name="RunManager" selected="Application.Club">
+    <configuration name="Club" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema03_Parte10_Ejercicio2.Club" />
+      <module name="Tema03_Parte10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema03_Parte10_Ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tema03_Parte04_Ejercicio03" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema03_Parte04_Ejercicio03.Tema03_Parte04_Ejercicio03" />
       <module name="Tema03_Parte04" />
@@ -191,34 +256,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tema03_Parte07_Ejercicios3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema03_Parte07.Tema03_Parte07_Ejercicios.Tema03_Parte07_Ejercicios3" />
-      <module name="Tema03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema03_Parte07.Tema03_Parte07_Ejercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Tema03_Parte04_Ejercicio03" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio13" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio14" />
       <item itemvalue="Application.Tema03_Parte07_Ejercicios2" />
-      <item itemvalue="Application.Tema03_Parte07_Ejercicios3" />
       <item itemvalue="Application.Tema03_Parte07_Ejercicios" />
+      <item itemvalue="Application.Club" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Club" />
         <item itemvalue="Application.Tema03_Parte04_Ejercicio13" />
         <item itemvalue="Application.Tema03_Parte04_Ejercicio14" />
         <item itemvalue="Application.Tema03_Parte07_Ejercicios2" />
         <item itemvalue="Application.Tema03_Parte07_Ejercicios" />
-        <item itemvalue="Application.Tema03_Parte07_Ejercicios3" />
       </list>
     </recent_temporary>
   </component>
@@ -321,9 +373,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="960" y="27" width="960" height="1053" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2931818" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42997813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4495114" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36177105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.61563516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -623,17 +675,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tema03_Parte09/src/Tema03_Parte09_Ejercicio01/Tema03_Parte09_Ejercicio01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tema03_Parte02/src/Tema03_Parte02_Ejercicio01/operaciones.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte09/src/Tema03_Parte09_Ejercicio01/Tema03_Parte09_Ejercicio01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Tema03_Parte10_Ejercicio2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio1/Tema03_Parte10_Ejercicio1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
         </state>
       </provider>
     </entry>
