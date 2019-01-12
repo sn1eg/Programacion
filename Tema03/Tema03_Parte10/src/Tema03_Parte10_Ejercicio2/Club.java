@@ -1,5 +1,5 @@
+//Este está a medio hacer xd
 package Tema03_Parte10_Ejercicio2;
-
 
 import java.util.Scanner;
 
@@ -31,11 +31,29 @@ public class Club {
     }
 
     void baja() {
+        System.out.println("Introduce el socio que quieres buscar:");
         String buscar = teclado.nextLine();
 
         for (int f = 0; f < socios.length; f++) {
             if (socios[f].getNombre().equalsIgnoreCase(buscar)) {
 
+            }
+        }
+    }
+
+    void modificacion(){
+        System.out.println("Introduce el socio que quieres buscar:");
+        String buscar = teclado.nextLine();
+
+        for (int f = 0; f < socios.length; f++) {
+            if (socios[f].getNombre().equalsIgnoreCase(buscar)) {
+                System.out.println("Introduce cual será la nueva cuota:");
+                int nuevacuota = teclado.nextInt();
+                socios[f].setCuota(nuevacuota);
+                break;
+            }
+            else if(socios[f] == null){
+                break;
             }
         }
     }
@@ -57,6 +75,10 @@ public class Club {
                     break;
                 case 2:
                     club1.baja();
+                    break;
+                case 3:
+                    club1.modificacion();
+                    break;
             }
         }while(eleccion != 0);
     }

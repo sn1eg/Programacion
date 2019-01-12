@@ -16,6 +16,10 @@ public class Socio {
         return true;
     }
 
+    void setCuota(int m){
+        this.cuota = m;
+    }
+
     String getNombre(){
         return nombre;
     }

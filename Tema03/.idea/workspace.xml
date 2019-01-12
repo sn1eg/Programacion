@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/Tema03_Parte10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio1/Tema03_Parte10_Ejercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xd/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xd/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xd/PocketMonster/src/Pichu/Pichu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xd/PocketMonster/src/Pichu/Pikachu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xd/PocketMonster/src/main/partida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f9b7c160-557c-4752-9118-722a1116b29f" name="Default Changelist" comment="Programacion">
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenVisualPrimerTrimestre/src/calcu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenVisualPrimerTrimestre/src/calcu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen_Primer_Trimestre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen_Primer_Trimestre/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xd/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xd/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/out/production/xd/Orco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/out/production/xd/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/out/production/xd/menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/src/Orco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/src/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/src/menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xd/xd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../xd/xd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,28 +18,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="31249" />
+    <option name="totalTimeSeconds" value="33096" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java">
+        <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Agenda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java">
+        <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Persona.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-              <folding>
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -114,43 +97,25 @@
         <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Tema03_Parte10_Ejercicio2.java" />
         <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java" />
         <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java" />
+        <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Agenda.java" />
+        <option value="$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Persona.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="960" />
-    <option name="height" value="1053" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tema03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tema03" type="462c0819:PsiDirectoryNode" />
-              <item name="Tema03_Parte10" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547112104589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547159768915" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -257,12 +222,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Club" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio03" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio13" />
       <item itemvalue="Application.Tema03_Parte04_Ejercicio14" />
       <item itemvalue="Application.Tema03_Parte07_Ejercicios2" />
       <item itemvalue="Application.Tema03_Parte07_Ejercicios" />
-      <item itemvalue="Application.Club" />
     </list>
     <recent_temporary>
       <list>
@@ -369,13 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1545050607885</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Programacion">
+      <created>1547112109813</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547112109813</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="27" width="960" height="1053" extended-state="4" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.42997813" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42954546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,16 +357,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36177105" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.61563516" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3284553" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3257329" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32952693" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.3284553" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.49022803" />
+      <window_info anchor="bottom" id="Thumbnails" order="9" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -402,7 +373,9 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Run" order="8" weight="0.39242426" />
+      <window_info anchor="right" id="Debug" order="9" weight="0.43560606" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -435,6 +408,20 @@
           <line>4</line>
           <properties />
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java</url>
+          <line>43</line>
+          <properties class="Club" method="modificacion">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -657,17 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-503">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tema03_Parte04/src/Tema03_Parte04_Ejercicio03/Tema03_Parte04_Ejercicio03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -689,13 +665,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Tema03_Parte10_Ejercicio2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Tema03_Parte10_Ejercicio2.java" />
     <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio1/Tema03_Parte10_Ejercicio1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -703,21 +673,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte07/src/Tema03_Parte07_Ejercicios/Tema03_Parte07_Ejercicios2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Socio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Tema03_Parte10_Ejercicio03.java" />
     <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio2/Club.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="15" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Agenda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tema03_Parte10/src/Tema03_Parte10_Ejercicio03/Persona.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
