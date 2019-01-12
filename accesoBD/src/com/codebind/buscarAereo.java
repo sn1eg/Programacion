@@ -31,7 +31,7 @@ public class buscarAereo {
             public void keyTyped(KeyEvent e) {
                 super.keyTyped(e);
 
-//                area_resultados.setText("");
+                area_resultados.setText("");
 
                 Connection oConni = null;
                 Statement stmt = null;
@@ -47,7 +47,7 @@ public class buscarAereo {
                 } finally {
                     try {
                         stmt = oConni.createStatement();
-                        rs = stmt.executeQuery("SELECT Name,Alias,IATA,Country FROM AIRLINES WHERE Name= '"+txt_Buscar.getText()+"';");
+                        rs = stmt.executeQuery("SELECT Name,Alias,IATA,Country FROM AIRLINES WHERE Name LIKE '%"+txt_Buscar.getText().trim()+"%';");
                         // Hacer algo con los resultados...
                         while (rs.next()) {
 
