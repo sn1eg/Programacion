@@ -1,5 +1,7 @@
 package com.codebind;
 
+import com.codebind.coordstodistance;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -99,7 +101,8 @@ public class distanciaAereo {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 //Buscamos ambos aeropuertos y cogemos sus latitudes y longitudes
-
+                System.out.println();
+                System.out.println();
                 aeropuerto1 = combo_Destino.getSelectedItem().toString();
                 aeropuerto2 = combo_Origen.getSelectedItem().toString();
 
@@ -117,6 +120,60 @@ public class distanciaAereo {
                 } finally {
                     try {
                         stmt = oConni.createStatement();
+                        rs = stmt.executeQuery("SELECT Latitude,Longitude FROM AIRPORTS WHERE Name = '" + aeropuerto2 + "';");
+                        // Hacer algo con los resultados...
+                        while (rs.next()) {
+
+                            latitudB = rs.getDouble("Latitude");
+                            longitudB = rs.getDouble("Longitude");
+
+                            System.out.println("latitudB " + latitudB);
+                            System.out.println("longitudB " + longitudB);
+                            System.out.println();
+//                            combo_Destino.addItem(rs.getString("Name"));
+//                            combo_Origen.addItem(rs.getString("Name"));
+
+                    /*
+                    String nombre = rs.getString("Name");
+                    System.out.println(nombre);
+                    */
+                        }
+                    } catch (SQLException ex) {
+                        // handle any errors
+                        System.out.println("SQLException: " + ex.getMessage());
+                        System.out.println("SQLState: " + ex.getSQLState());
+                        System.out.println("VendorError: " + ex.getErrorCode());
+                    } finally {
+                        if (rs != null) {
+                            try {
+                                rs.close();
+                            } catch (SQLException sqlEx) {
+                            } // ignore
+                            rs = null;
+                        }
+                        if (stmt != null) {
+                            try {
+                                stmt.close();
+                            } catch (SQLException sqlEx) {
+                            } // ignore
+                            stmt = null;
+                        }
+                    }
+                }
+
+
+                try {
+                    String url = "jdbc:mysql://vps456458.ovh.net:3306/VUELOSdaw";
+                    Class.forName("com.mysql.jdbc.Driver");
+                    oConni = DriverManager.getConnection(url, "remoto", "malagaesdeprimera");
+                    System.out.println("Database connection established");
+                } catch (Exception e) {
+                    e.printStackTrace();
+
+                } finally {
+                    try {
+                        stmt = oConni.createStatement();
+                        //http://lineadecodigo.com/java/consultas-sql-con-parametros-en-java-jdbc/
                         rs = stmt.executeQuery("SELECT Latitude,Longitude FROM AIRPORTS WHERE Name = '" + aeropuerto1 + "';");
                         // Hacer algo con los resultados...
                         while (rs.next()) {
@@ -155,8 +212,13 @@ public class distanciaAereo {
                             stmt = null;
                         }
                     }
-                    }
                 }
+
+
+                txtArea_resultado.setText(coordstodistance.distance(latitudA,longitudA,latitudB,longitudB,'K')+" Km");
+            }
+
+
             });
         }
 
@@ -170,5 +232,6 @@ public class distanciaAereo {
 //        frame.pack();
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);
+
         }
     }
