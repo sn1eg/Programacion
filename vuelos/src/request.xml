@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestTravels>
+    <head>
+        <AuthUser>daw</AuthUser>
+        <credential>qwerty</credential>
+        <timestamp>2018-12-16 18:26:45</timestamp>
+    </head>
+    <requests>
+        <item idZonaOrigen="562" idZonaDestino="14815"/>
+        <item idZonaOrigen="562" idZonaDestino="816"/>
+        <item idZonaOrigen="284" idZonaDestino="210"/>
+    </requests>
+</RequestTravels>
