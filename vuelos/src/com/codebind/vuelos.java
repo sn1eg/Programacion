@@ -9,18 +9,38 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.sql.*;
 
 public class vuelos {
+
+    public static final void prettyPrint(Document xml) {
+        try {
+            Transformer tf = TransformerFactory.newInstance().newTransformer();
+            tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+            tf.setOutputProperty(OutputKeys.INDENT, "yes");
+            Writer out = new StringWriter();
+            tf.transform(new DOMSource(xml), new StreamResult(out));
+            System.out.println(out.toString());
+            Result output = new StreamResult(new File("src" + File.separator + "com/codebind/request.xml"));
+            Source input = new DOMSource(xml);
+            tf.transform(input, output);
+        }catch (TransformerConfigurationException e) {
+            e.printStackTrace();
+        } catch (TransformerException e) {
+            e.printStackTrace();
+        }
+    }
+
+
     public static void main(String[] args) {
+
+        String origen = null;
+        String destino = null;
+
 
         Connection oConni = null;
         Statement stmt = null;
@@ -34,8 +54,10 @@ public class vuelos {
         }
 
         request peticiones[] = new request[0];
+
+        File inputFile = new File("src" + File.separator + "com/codebind/request.xml");
         try {
-            File inputFile = new File("src" + File.separator + "com/codebind/request.xml");
+//            File inputFile = new File("src" + File.separator + "com/codebind/request.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
@@ -77,47 +99,58 @@ public class vuelos {
             e.printStackTrace();
         }
 
-        //Actualiza el XML del usuario por cada palabra acertada o no.
-//        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-//        dbf.setValidating(false);
-//        DocumentBuilder db = null;
-//        try {
-//            db = dbf.newDocumentBuilder();
-//        } catch (ParserConfigurationException e) {
-//            e.printStackTrace();
-//        }
-//        Document doc = null;
-//        try {
-//            doc = db.parse(new FileInputStream(new File("src" + File.separator + "com/codebind/misputasmuelas.xml")));
-//        } catch (SAXException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        Element element = doc.getDocumentElement();
-//        Node node = doc.createElement("palabra");
-////            ((Element) node).setAttribute("fecha", now());
-////            ((Element) node).setAttribute("generada", lblPalabra.getText());
-////            ((Element) node).setAttribute("contestada", txtPalabra.getText());
-////            ((Element) node).setAttribute("acierto", resultado);
-//        element.appendChild(node);
-////            prettyPrint(doc);
+
+
 
         System.out.println(peticiones[0].zonaorigen);
 
+
+        // Realizamos las consultas SQL
         try {
 //            rs = stmt.executeQuery("WHERE BINARY  AIRPORTS.Name LIKE '%" + patron + "%' ORDER BY AIRPORTS.Name");
             rs = stmt.executeQuery("SELECT Name,DestinyID FROM ZONASDESTINO WHERE DestinyID = '" + peticiones[0].zonaorigen + "';");
             while (rs.next()) {
-                System.out.println(rs.getString("Name"));
-//                String name = rs.getString("Name");
-//                String country = rs.getString("CodeA");
-////                txtResultados.append(name + " " + country + "\n");
+                System.out.println("Origen: "+ rs.getString("Name"));
+                origen = rs.getString("Name");
             }
+
+            rs = stmt.executeQuery("SELECT Name,DestinyID FROM ZONASDESTINO WHERE DestinyID = '" + peticiones[0].zonadestino + "';");
+            while (rs.next()) {
+                System.out.println("Destino: "+rs.getString("Name"));
+                destino = rs.getString("Name");
+            }
+
         } catch (SQLException ex) {                     // handle any errors
             System.out.println("SQLException: " + ex.getMessage());
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
+        }
+
+
+
+
+        try {
+            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+            dbf.setValidating(false);
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            Document doc = db.parse(new FileInputStream(new File("src" + File.separator + "com/codebind/request.xml")));
+            NodeList misnodos = doc.getElementsByTagName("item");
+            Element elemental = (Element) misnodos.item(0);
+
+
+            Node nodoorigen = doc.createElement("Origen");
+            Node nodotexto = doc.createTextNode(origen);
+            nodoorigen.appendChild(nodotexto);
+            elemental.appendChild(nodoorigen);
+
+            Node nododestino = doc.createElement("Destino");
+            nodotexto = doc.createTextNode(destino);
+            nododestino.appendChild(nodotexto);
+            elemental.appendChild(nododestino);
+
+            prettyPrint(doc);
+        } catch (Exception f) {
+            f.printStackTrace();
         }
 
     }
