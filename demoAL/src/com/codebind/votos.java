@@ -3,6 +3,9 @@ package com.codebind;
 public class votos {
     String name;
     int votos;
+    int ultvoto;
+    String dia;
+    String hora;
 
     public String getName() {
         return name;
@@ -43,9 +46,5 @@ public class votos {
     public void setHora(String hora) {
         this.hora = hora;
     }
-
-    int ultvoto;
-    String dia;
-    String hora;
 
 }
