@@ -53,11 +53,10 @@ public class vuelos {
             e.printStackTrace();
         }
 
-        request peticiones[] = new request[0];
+        request peticiones[] = new request[9];
 
         File inputFile = new File("src" + File.separator + "com/codebind/request.xml");
         try {
-//            File inputFile = new File("src" + File.separator + "com/codebind/request.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
@@ -100,57 +99,56 @@ public class vuelos {
         }
 
 
+        System.out.println('\n' + "EMPIEZA EL BUCLE"+'\n');
+        for(int x = 0; x < peticiones.length; x++) {
+            System.out.println(peticiones[x].zonaorigen);
 
 
-        System.out.println(peticiones[0].zonaorigen);
-
-
-        // Realizamos las consultas SQL
-        try {
+            // Realizamos las consultas SQL
+            try {
 //            rs = stmt.executeQuery("WHERE BINARY  AIRPORTS.Name LIKE '%" + patron + "%' ORDER BY AIRPORTS.Name");
-            rs = stmt.executeQuery("SELECT Name,DestinyID FROM ZONASDESTINO WHERE DestinyID = '" + peticiones[0].zonaorigen + "';");
-            while (rs.next()) {
-                System.out.println("Origen: "+ rs.getString("Name"));
-                origen = rs.getString("Name");
+                rs = stmt.executeQuery("SELECT Name,DestinyID FROM ZONASDESTINO WHERE DestinyID = '" + peticiones[x].zonaorigen + "';");
+                while (rs.next()) {
+                    System.out.println("Origen: " + rs.getString("Name"));
+                    origen = rs.getString("Name");
+                }
+
+                rs = stmt.executeQuery("SELECT Name,DestinyID FROM ZONASDESTINO WHERE DestinyID = '" + peticiones[x].zonadestino + "';");
+                while (rs.next()) {
+                    System.out.println("Destino: " + rs.getString("Name"));
+                    destino = rs.getString("Name");
+                }
+
+            } catch (SQLException ex) {                     // handle any errors
+                System.out.println("SQLException: " + ex.getMessage());
+                System.out.println("SQLState: " + ex.getSQLState());
+                System.out.println("VendorError: " + ex.getErrorCode());
             }
 
-            rs = stmt.executeQuery("SELECT Name,DestinyID FROM ZONASDESTINO WHERE DestinyID = '" + peticiones[0].zonadestino + "';");
-            while (rs.next()) {
-                System.out.println("Destino: "+rs.getString("Name"));
-                destino = rs.getString("Name");
+
+            try {
+                DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+                dbf.setValidating(false);
+                DocumentBuilder db = dbf.newDocumentBuilder();
+                Document doc = db.parse(new FileInputStream(new File("src" + File.separator + "com/codebind/request.xml")));
+                NodeList misnodos = doc.getElementsByTagName("item");
+                Element elemental = (Element) misnodos.item(x);
+
+
+                Node nodoorigen = doc.createElement("Origen");
+                Node nodotexto = doc.createTextNode(origen);
+                nodoorigen.appendChild(nodotexto);
+                elemental.appendChild(nodoorigen);
+
+                Node nododestino = doc.createElement("Destino");
+                nodotexto = doc.createTextNode(destino);
+                nododestino.appendChild(nodotexto);
+                elemental.appendChild(nododestino);
+
+                prettyPrint(doc);
+            } catch (Exception f) {
+                f.printStackTrace();
             }
-
-        } catch (SQLException ex) {                     // handle any errors
-            System.out.println("SQLException: " + ex.getMessage());
-            System.out.println("SQLState: " + ex.getSQLState());
-            System.out.println("VendorError: " + ex.getErrorCode());
-        }
-
-
-
-
-        try {
-            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-            dbf.setValidating(false);
-            DocumentBuilder db = dbf.newDocumentBuilder();
-            Document doc = db.parse(new FileInputStream(new File("src" + File.separator + "com/codebind/request.xml")));
-            NodeList misnodos = doc.getElementsByTagName("item");
-            Element elemental = (Element) misnodos.item(0);
-
-
-            Node nodoorigen = doc.createElement("Origen");
-            Node nodotexto = doc.createTextNode(origen);
-            nodoorigen.appendChild(nodotexto);
-            elemental.appendChild(nodoorigen);
-
-            Node nododestino = doc.createElement("Destino");
-            nodotexto = doc.createTextNode(destino);
-            nododestino.appendChild(nodotexto);
-            elemental.appendChild(nododestino);
-
-            prettyPrint(doc);
-        } catch (Exception f) {
-            f.printStackTrace();
         }
 
     }

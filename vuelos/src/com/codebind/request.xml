@@ -1,27 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <RequestTravels>
-        
-    <head>
-                
-        <AuthUser>daw</AuthUser>
-                
-        <credential>qwerty</credential>
-                
-        <timestamp>2018-12-16 18:26:45</timestamp>
-            
-    </head>
-        
-    <requests>
-                
-        <item idZonaDestino="14815" idZonaOrigen="562">
-            <Origen>Málaga</Origen>
-            <Destino>Disneyland París</Destino>
-        </item>
-                
-        <item idZonaDestino="816" idZonaOrigen="562"/>
-                
-        <item idZonaDestino="210" idZonaOrigen="284"/>
-            
-    </requests>
+                    
     
+    
+    
+    <head>
+                                        
+        
+        
+        
+        <AuthUser>daw</AuthUser>
+                                        
+        
+        
+        
+        <credential>qwerty</credential>
+                                        
+        
+        
+        
+        <timestamp>2018-12-16 18:26:45</timestamp>
+                                    
+    
+    
+    
+    </head>
+                    
+    
+    
+    
+    <requests>
+                                        
+        
+        
+        
+        <item idZonaDestino="14815" idZonaOrigen="562">
+                                                
+            
+            
+            <Origen>Málaga</Origen>
+                                                
+            
+            
+            <Destino>Disneyland París</Destino>
+                                            
+            
+            
+            <Origen>Málaga</Origen>
+                                    
+            
+            <Destino>Disneyland París</Destino>
+                                
+        
+        </item>
+                                        
+        
+        
+        
+        <item idZonaDestino="816" idZonaOrigen="562">
+                        
+            <Origen>Málaga</Origen>
+                        
+            <Destino>París</Destino>
+                    
+        </item>
+                                        
+        
+        
+        
+        <item idZonaDestino="210" idZonaOrigen="284">
+            <Origen>Córdoba</Origen>
+            <Destino>Barcelona</Destino>
+        </item>
+                                    
+    
+    
+    
+    </requests>
+                
+
+
+
 </RequestTravels>
